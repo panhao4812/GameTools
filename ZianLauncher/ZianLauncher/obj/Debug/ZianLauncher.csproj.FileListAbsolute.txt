@@ -1,0 +1,37 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ZianLauncher\ZianLauncher\bin\Debug\ZianLauncher.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ZianLauncher\ZianLauncher\bin\Debug\ZianLauncher.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ZianLauncher\ZianLauncher\bin\Debug\ZianLauncher.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.ZianLauncher.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.pdb
+D:\Program Files (x86)\minecraft1.7.10\ZianLauncher.exe
+D:\Program Files (x86)\minecraft1.7.10\ZianLauncher.pdb
+D:\我的文档\GitHub\ZianLauncher\ZianLauncher\bin\Debug\ZianLauncher.exe
+D:\我的文档\GitHub\ZianLauncher\ZianLauncher\bin\Debug\ZianLauncher.pdb
+D:\我的文档\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.LauncherForm.LauncherForm.resources
+D:\我的文档\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.Properties.Resources.resources
+D:\我的文档\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.csproj.GenerateResource.Cache
+D:\我的文档\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.exe
+D:\我的文档\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.pdb
+D:\Program Files (x86)\minecraft1.10.2\ZianLauncher.exe
+D:\Program Files (x86)\minecraft1.10.2\ZianLauncher.pdb
+C:\Users\Administrator\Desktop\mc\minecraft1.11.2\ZianLauncher.exe
+C:\Users\Administrator\Desktop\mc\minecraft1.11.2\ZianLauncher.pdb
+C:\Users\Administrator\Desktop\mc\minecraft1.11.2withoutForge\ZianLauncher.exe
+C:\Users\Administrator\Desktop\mc\minecraft1.11.2withoutForge\ZianLauncher.pdb
+C:\Users\Administrator\Desktop\minecraft1.13\Minecraft 1.13\ZianLauncher.exe
+C:\Users\Administrator\Desktop\minecraft1.13\Minecraft 1.13\ZianLauncher.pdb
+C:\Users\Administrator\Desktop\Minecraft1.12\ZianLauncher.exe
+C:\Users\Administrator\Desktop\Minecraft1.12\ZianLauncher.pdb
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher\bin\debug\ZianLauncher.exe
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher\bin\debug\ZianLauncher.pdb
+C:\Users\Administrator\Desktop\Minecraft 1.12.2\ZianLauncher.exe
+C:\Users\Administrator\Desktop\Minecraft 1.12.2\ZianLauncher.pdb
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.LauncherForm.LauncherForm.resources
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.exe
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.pdb
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher\obj\Debug\ZianLauncher.csprojResolveAssemblyReference.cache

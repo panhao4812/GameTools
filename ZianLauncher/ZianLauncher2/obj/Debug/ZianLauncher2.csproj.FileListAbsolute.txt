@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\bin\Debug\ZianLauncher2.exe.config
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\obj\Debug\ZianLauncher2.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\obj\Debug\ZianLauncher2.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\bin\Debug\ZianLauncher2.exe
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\bin\Debug\ZianLauncher2.pdb
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\obj\Debug\ZianLauncher2.exe
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\obj\Debug\ZianLauncher2.pdb
+C:\Users\Administrator\Desktop\1.16\ZianLauncher2.exe.config
+C:\Users\Administrator\Desktop\1.16\ZianLauncher2.exe
+C:\Users\Administrator\Desktop\1.16\ZianLauncher2.pdb
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\obj\Debug\ZianLauncher2.LauncherForm2.resources
+C:\Users\Administrator\Documents\GitHub\ZianLauncher\ZianLauncher2\obj\Debug\ZianLauncher2.csprojResolveAssemblyReference.cache
