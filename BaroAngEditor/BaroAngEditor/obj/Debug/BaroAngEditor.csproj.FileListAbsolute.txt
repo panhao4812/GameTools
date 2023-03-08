@@ -7,3 +7,12 @@ C:\Users\Administrator\Documents\github\BaroAngEditor\BaroAngEditor\obj\Debug\Ba
 C:\Users\Administrator\Documents\github\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.exe
 C:\Users\Administrator\Documents\github\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.pdb
 C:\Users\Administrator\Documents\github\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.Editor2.resources
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\bin\Debug\BaroAngEditor.exe.config
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\bin\Debug\BaroAngEditor.exe
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\bin\Debug\BaroAngEditor.pdb
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.Editor2.resources
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.Properties.Resources.resources
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.exe
+C:\Users\Administrator\Documents\github\GameTools\BaroAngEditor\BaroAngEditor\obj\Debug\BaroAngEditor.pdb
