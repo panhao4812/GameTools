@@ -1030,9 +1030,9 @@
       <Reputation identifier="coalition" amount="10" />
       <Reputation identifier="separatists" amount="-10" />
       <SubmarineTypes>
-        <Submarine path="Content/Map/EnemySubmarines/DugongPirate.sub" preferreddifficulty="10" alternatereward="3200"/>
-        <Submarine path="Content/Map/EnemySubmarines/HumpbackPirate.sub" preferreddifficulty="40" alternatereward="4400"/>
-        <Submarine path="Content/Map/EnemySubmarines/Typhon2Pirate.sub" preferreddifficulty="50" alternatereward="5600"/>
+        <Submarine path="%ModDir%/Coalition Probe III.sub" preferreddifficulty="10" alternatereward="3200"/>
+        <Submarine path="%ModDir%/Coalition Probe I.sub" preferreddifficulty="40" alternatereward="4400"/>
+        <Submarine path="%ModDir%/Coalition Probe II.sub" preferreddifficulty="50" alternatereward="5600"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>
@@ -1071,9 +1071,9 @@
       <Reputation identifier="separatists" amount="10" />
       <Reputation identifier="coalition" amount="-10" />
       <SubmarineTypes>
-        <Submarine path="Content/Submarines/Dugong.sub" preferreddifficulty="10" alternatereward="3200"/>
-        <Submarine path="Content/Submarines/Humpback.sub" preferreddifficulty="40" alternatereward="4400"/>
-        <Submarine path="Content/Submarines/Typhon2.sub" preferreddifficulty="50" alternatereward="5600"/>
+        <Submarine path="%ModDir%/Coalition Probe III.sub" preferreddifficulty="10" alternatereward="3200"/>
+        <Submarine path="%ModDir%/Coalition Probe I.sub" preferreddifficulty="40" alternatereward="4400"/>
+        <Submarine path="%ModDir%/Coalition Probe II.sub" preferreddifficulty="50" alternatereward="5600"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="coalitioncaptain" minamount="1" maxamount="1"/>
@@ -1115,9 +1115,9 @@
       <Reputation identifier="separatists" amount="10" />
       <Reputation identifier="coalition" amount="-10" />
       <SubmarineTypes>
-        <Submarine path="Content/Submarines/Dugong.sub" preferreddifficulty="10"/>
-        <Submarine path="Content/Submarines/Humpback.sub" preferreddifficulty="40"/>
-        <Submarine path="Content/Submarines/Typhon2.sub" preferreddifficulty="50"/>
+        <Submarine path="%ModDir%/Coalition Probe III.sub" preferreddifficulty="10"/>
+        <Submarine path="%ModDir%/Coalition Probe I.sub" preferreddifficulty="40"/>
+        <Submarine path="%ModDir%/Coalition Probe II.sub" preferreddifficulty="50"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="coalitioncaptain" minamount="1" maxamount="1"/>
@@ -1158,9 +1158,9 @@
       <Reputation identifier="coalition" amount="10" />
       <Reputation identifier="separatists" amount="-10" />
       <SubmarineTypes>
-        <Submarine path="Content/Map/EnemySubmarines/DugongPirate.sub" preferreddifficulty="10"/>
-        <Submarine path="Content/Map/EnemySubmarines/HumpbackPirate.sub" preferreddifficulty="40"/>
-        <Submarine path="Content/Map/EnemySubmarines/Typhon2Pirate.sub" preferreddifficulty="50"/>
+        <Submarine path="%ModDir%/Coalition Probe III.sub" preferreddifficulty="10"/>
+        <Submarine path="%ModDir%/Coalition Probe I.sub" preferreddifficulty="40"/>
+        <Submarine path="%ModDir%/Coalition Probe II.sub" preferreddifficulty="50"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>

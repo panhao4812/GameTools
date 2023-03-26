@@ -4,7 +4,7 @@
   <!--                          Abandoned Outpost NPCs                           -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <npcset identifier="abandonedoutpostnpcs2">
-    <npc identifier="bandit2" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="5" healthmultiplierinmultiplayer="10" aimspeed="1.0" aimaccuracy="1.0" reportrange="1500">
+    <npc identifier="bandit2" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="3" healthmultiplierinmultiplayer="3" aimspeed="1.0" aimaccuracy="1.0" reportrange="1500">
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true"/>
         <Item identifier="banditclothes1" equip="true"/>
@@ -24,7 +24,7 @@
         <Item identifier="smgmagazine"/>
       </ItemSet>
     </npc>
-    <npc identifier="banditleader2" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="8" healthmultiplierinmultiplayer="10" aimspeed="1.0" aimaccuracy="1.0" reportrange="2750">
+    <npc identifier="banditleader2" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="5" healthmultiplierinmultiplayer="5" aimspeed="1.0" aimaccuracy="1.0" reportrange="2750">
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true"/>
         <Item identifier="captainsuniform2" equip="true"/>
@@ -67,7 +67,7 @@
         <Item identifier="explosivespear" amount="6"/>
       </ItemSet>
     </npc>
-    <npc identifier="banditleader_heavy2" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="10" healthmultiplierinmultiplayer="15" aimspeed="1.0" aimaccuracy="1.0" reportrange="2750">
+    <npc identifier="banditleader_heavy2" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="8" healthmultiplierinmultiplayer="8" aimspeed="1.0" aimaccuracy="1.0" reportrange="2750">
       <ItemSet commonness="0.8">
         <Item identifier="idcard" equip="true"/>
         <Item identifier="captainsuniform3" equip="true"/>
@@ -216,7 +216,7 @@
         </Item>
       </ItemSet>
     </npc>
-    <npc identifier="psychoclown2" commonness="0" moduleflags="none" job="killer" behavior="Patrol" healthmultiplier="15" healthmultiplierinmultiplayer="10" aimspeed="1" aimaccuracy="1" reportrange="1500">
+    <npc identifier="psychoclown2" commonness="0" moduleflags="none" job="killer" behavior="Patrol" healthmultiplier="8" healthmultiplierinmultiplayer="8" aimspeed="1.0" aimaccuracy="1.0" reportrange="1500">
       <ItemSet commonness="90">
         <Item identifier="idcard" equip="true"/>
         <Item identifier="clowncostume" equip="true"/>
@@ -250,7 +250,7 @@
         <Item identifier="bikehorn" equip="false"/>
       </ItemSet>
     </npc>
-    <npc identifier="huskextremist" commonness="0" tags="huskcultist" group="husk" moduleflags="crewmodule,researchmodule" job="securityofficer" behavior="Passive" healthmultiplier="5" healthmultiplierinmultiplayer="5" aimspeed="1" aimaccuracy="1" reportrange="1500">
+    <npc identifier="huskextremist2" commonness="0" tags="huskcultist" group="husk" moduleflags="crewmodule,researchmodule" job="securityofficer" behavior="Passive" healthmultiplier="3" healthmultiplierinmultiplayer="3" aimspeed="1" aimaccuracy="1" reportrange="1500">
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true"/>
         <Item identifier="cultistrobes" equip="true"/>
@@ -276,7 +276,7 @@
         </Item>
       </ItemSet>
     </npc>
-    <npc identifier="huskextremist_leader" tags="huskcultist" group="husk" commonness="0" moduleflags="crewmodule,researchmodule" job="medicaldoctor" behavior="Passive" healthmultiplier="8" healthmultiplierinmultiplayer="8" aimspeed="1" aimaccuracy="1" reportrange="1750">
+    <npc identifier="huskextremist_leader2" tags="huskcultist" group="husk" commonness="0" moduleflags="crewmodule,researchmodule" job="medicaldoctor" behavior="Passive" healthmultiplier="5" healthmultiplierinmultiplayer="5" aimspeed="1" aimaccuracy="1" reportrange="1750">
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true"/>
         <Item identifier="zealotrobes" equip="true"/>
@@ -297,8 +297,8 @@
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!--                     Combat Mission Separatist NPCs                        -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <npcset identifier="combatmissionseparatistnpcs">
-    <npc identifier="separatistcaptain2" job="captain" moduleflags="none" behavior="Patrol" healthmultiplier="15" aimspeed="1.0" aimaccuracy="1.0">
+  <npcset identifier="combatmissionseparatistnpcs2">
+    <npc identifier="separatistcaptain2" job="captain" moduleflags="none" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" showpreview="false" />
         <Item identifier="pirateclothes" equip="true" outfit="true" />
@@ -323,7 +323,7 @@
         <Item identifier="handcannonround" amount="6"/>
       </ItemSet>
     </npc>
-    <npc identifier="separatistsecurityofficer2" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="15" aimspeed="1.0" aimaccuracy="1.0">
+    <npc identifier="separatistsecurity2" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
       <ItemSet commonness="1">
         <Item identifier="pirateclothesnovice" equip="true" />
         <Item identifier="idcard" equip="true" />
@@ -344,7 +344,7 @@
         <Item identifier="handcannonround" amount="6"/>
       </ItemSet>
     </npc>
-    <npc identifier="separatistengineer2" job="engineer" behavior="Patrol" healthmultiplier="15" aimspeed="1" aimaccuracy="1">
+    <npc identifier="separatistengineer2" job="engineer" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
       <ItemSet>
         <Item identifier="pirateclothes" equip="true" />  
         <Item identifier="idcard" equip="true" />
@@ -370,7 +370,7 @@
         <Item identifier="screwdriver" equip="true" />
       </ItemSet>
     </npc>
-    <npc identifier="separatistmechanic2" job="mechanic" behavior="Patrol" healthmultiplier="15" aimspeed="1" aimaccuracy="1">
+    <npc identifier="separatistmechanic2" job="mechanic" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
       <ItemSet>
         <Item identifier="pirateclothesnovice" equip="true" />
         <Item identifier="idcard" equip="true" />
@@ -402,8 +402,8 @@
   <!--                     Combat Mission Coalition  NPCs                        -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-  <npcset identifier="combatmissioncoalitionnpcs">
-    <npc identifier="coalitioncaptainlord" job="captain" moduleflags="none" behavior="Patrol" healthmultiplier="15" aimspeed="1" aimaccuracy="1">
+  <npcset identifier="combatmissioncoalitionnpcs2">
+    <npc identifier="coalitioncaptain2" job="captain" moduleflags="none" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" showpreview="false" />
         <Item identifier="captainsuniform3" equip="true"/>
@@ -428,7 +428,7 @@
         <Item identifier="handcannonround" amount="6"/>
       </ItemSet>
     </npc>
-    <npc identifier="coalitionsecurityelite" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="15" aimspeed="1.0" aimaccuracy="1.0">
+    <npc identifier="coalitionsecurity2" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
       <ItemSet commonness="1">
         <Item identifier="securityuniform1" equip="true" />
         <Item identifier="idcard" equip="true" />
@@ -449,7 +449,7 @@
         <Item identifier="handcannonround" amount="6"/>
       </ItemSet>
     </npc>
-    <npc identifier="coalitionengineerveteran" job="engineer" behavior="Patrol" healthmultiplier="15" aimspeed="1.0" aimaccuracy="1.0">
+    <npc identifier="coalitionengineer2" job="engineer" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
       <ItemSet>
         <Item identifier="orangejumpsuit2" equip="true" />
         <Item identifier="idcard" equip="true" />
@@ -475,7 +475,7 @@
         <Item identifier="screwdriver" equip="true" />
       </ItemSet>
     </npc>
-    <npc identifier="coalitionmechanicveteran" job="mechanic" behavior="Patrol" healthmultiplier="15" aimspeed="1.0" aimaccuracy="1.0">
+    <npc identifier="coalitionmechanic2" job="mechanic" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
       <ItemSet>
         <Item identifier="bluejumpsuit1" equip="true" />
         <Item identifier="idcard" equip="true" />
