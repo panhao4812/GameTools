@@ -729,7 +729,7 @@
 		  achievementidentifier="abandonedoutpostrescue"
 		  reward="8000"
 		  difficulty="5"
-		  commonness="50"
+		  commonness="30"
 		  allowretry="true"
 		  hostageskilledmessage="hostageskilled"
 		  unhideentitysubcategories="abandonedhuman">
@@ -1030,9 +1030,9 @@
 			<Reputation identifier="coalition" amount="5" />
 			<Reputation identifier="separatists" amount="-12" />
 			<SubmarineTypes>
-				<Submarine path="%ModDir%/Coalition Probe III.sub" preferreddifficulty="10" alternatereward="7200"/>
-				<Submarine path="%ModDir%/Coalition Probe I.sub" preferreddifficulty="40" alternatereward="7400"/>
-				<Submarine path="%ModDir%/Coalition Probe II.sub" preferreddifficulty="50" alternatereward="8800"/>
+				<Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10" alternatereward="7200"/>
+				<Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40" alternatereward="7400"/>
+				<Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50" alternatereward="8800"/>
 			</SubmarineTypes>
 			<Characters>
 				<Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>
@@ -1071,9 +1071,9 @@
 			<Reputation identifier="separatists" amount="5" />
 			<Reputation identifier="coalition" amount="-15" />
 			<SubmarineTypes>
-				<Submarine path="%ModDir%/Coalition Probe III.sub" preferreddifficulty="10" alternatereward="7800"/>
-				<Submarine path="%ModDir%/Coalition Probe I.sub" preferreddifficulty="40" alternatereward="8200"/>
-				<Submarine path="%ModDir%/Coalition Probe II.sub" preferreddifficulty="50" alternatereward="9600"/>
+				<Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10" alternatereward="7800"/>
+				<Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40" alternatereward="8200"/>
+				<Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50" alternatereward="9600"/>
 			</SubmarineTypes>
 			<Characters>
 				<Character typeidentifier="coalitioncaptain" minamount="1" maxamount="1"/>
@@ -1115,9 +1115,9 @@
 			<Reputation identifier="separatists" amount="10" />
 			<Reputation identifier="coalition" amount="-10" />
 			<SubmarineTypes>
-				<Submarine path="%ModDir%/Coalition Probe III.sub" preferreddifficulty="10"/>
-				<Submarine path="%ModDir%/Coalition Probe I.sub" preferreddifficulty="40"/>
-				<Submarine path="%ModDir%/Coalition Probe II.sub" preferreddifficulty="50"/>
+				<Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10"/>
+				<Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40"/>
+				<Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50"/>
 			</SubmarineTypes>
 			<Characters>
 				<Character typeidentifier="coalitioncaptain" minamount="1" maxamount="1"/>
@@ -1158,9 +1158,9 @@
 			<Reputation identifier="coalition" amount="10" />
 			<Reputation identifier="separatists" amount="-10" />
 			<SubmarineTypes>
-				<Submarine path="%ModDir%/Coalition Probe III.sub" preferreddifficulty="10"/>
-				<Submarine path="%ModDir%/Coalition Probe I.sub" preferreddifficulty="40"/>
-				<Submarine path="%ModDir%/Coalition Probe II.sub" preferreddifficulty="50"/>
+				<Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10"/>
+				<Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40"/>
+				<Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50"/>
 			</SubmarineTypes>
 			<Characters>
 				<Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>
