@@ -1028,11 +1028,11 @@
 	   achievementidentifier="combatmissioncoalitionvsseparatists"
 	   addedmissiondifficultyperplayer="8">
       <Reputation identifier="coalition" amount="5" />
-      <Reputation identifier="separatists" amount="-12" />
+      <Reputation identifier="separatists" amount="-15" />
       <SubmarineTypes>
-        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10" alternatereward="7200"/>
-        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40" alternatereward="7400"/>
-        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50" alternatereward="8800"/>
+        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10" alternatereward="8200"/>
+        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40" alternatereward="8200"/>
+        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50" alternatereward="8200"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>
@@ -1071,9 +1071,9 @@
       <Reputation identifier="separatists" amount="5" />
       <Reputation identifier="coalition" amount="-15" />
       <SubmarineTypes>
-        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10" alternatereward="7800"/>
-        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40" alternatereward="8200"/>
-        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50" alternatereward="9600"/>
+        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10" alternatereward="8800"/>
+        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40" alternatereward="8800"/>
+        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50" alternatereward="8800"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="coalitioncaptain" minamount="1" maxamount="1"/>
@@ -1110,10 +1110,10 @@
 		  achievementidentifier="combatmissionseparatistsvscoalition"
 		  difficulty="5"
 		  commonness="100"
-		  reward="500"
+		  reward="1000"
 		  addedmissiondifficultyperplayer="8">
-      <Reputation identifier="separatists" amount="10" />
-      <Reputation identifier="coalition" amount="-10" />
+      <Reputation identifier="separatists" amount="2" />
+      <Reputation identifier="coalition" amount="-5" />
       <SubmarineTypes>
         <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10"/>
         <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40"/>
@@ -1153,10 +1153,10 @@
 		  achievementidentifier="combatmissioncoalitionvsseparatists"
 		  difficulty="5"
 		  commonness="100"
-		  reward="500"
+		  reward="1000"
 		  addedmissiondifficultyperplayer="8">
-      <Reputation identifier="coalition" amount="10" />
-      <Reputation identifier="separatists" amount="-10" />
+      <Reputation identifier="coalition" amount="2" />
+      <Reputation identifier="separatists" amount="-5" />
       <SubmarineTypes>
         <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10"/>
         <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40"/>
