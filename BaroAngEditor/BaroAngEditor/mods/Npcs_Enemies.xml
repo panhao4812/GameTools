@@ -91,7 +91,7 @@
 					<Item identifier="oxygentank" />
 				</Item>
 				<Item identifier="pressurestabilizer" />
-				<Item identifier="boardingaxe" equip="true"/>
+				<Item identifier="ceremonialsword" equip="true"/>
 				<Item identifier="bikehorn" equip="false"/>
 			</ItemSet>
 			<ItemSet commonness="50">
@@ -132,8 +132,8 @@
 				<Item identifier="divingmask">
 					<Item identifier="oxygentank" />
 				</Item>
-				<Item identifier="divingknifeunique" equip="false"/>
-				<Item identifier="syringegun" equip="true">
+				<Item identifier="ceremonialsword" equip="true"/>
+				<Item identifier="syringegun" equip="false">
 					<Item identifier="morbusine"/>
 				</Item>
 			</ItemSet>
@@ -146,8 +146,8 @@
 				<Item identifier="autoinjectorheadset" equip="true">
 					<Item identifier="antibloodloss2" />
 				</Item>
-				<Item identifier="divingknifeunique" equip="false"/>
-				<Item identifier="advancedsyringegun" equip="true">
+				<Item identifier="divingknifeunique" equip="true"/>
+				<Item identifier="advancedsyringegun" equip="false">
 					<Item identifier="cyanide"/>
 				</Item>
 				<Item identifier="divingmask">
@@ -161,8 +161,8 @@
 				<Item identifier="autoinjectorheadset" equip="true">
 					<Item identifier="antibloodloss2" />
 				</Item>
-				<Item identifier="divingknifeunique" equip="false"/>
-				<Item identifier="advancedsyringegun" equip="true">
+				<Item identifier="ceremonialsword" equip="true"/>
+				<Item identifier="advancedsyringegun" equip="false">
 					<Item identifier="morbusine"/>
 				</Item>
 				<Item identifier="divingmask">
