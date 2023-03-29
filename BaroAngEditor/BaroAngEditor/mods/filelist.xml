@@ -3,7 +3,7 @@
   <MapGenerationParameters file="%ModDir%/MapGenerationParameters_Enemies.xml" />
   <NPCSets file="%ModDir%/Npcs_Enemies.xml" />
   <Missions file="%ModDir%/Missions_Enemies.xml" />
-  <EnemySubmarine file="%ModDir%/Coalition Probe II.sub" />
-  <EnemySubmarine file="%ModDir%/Coalition Probe I.sub" />
-  <EnemySubmarine file="%ModDir%/Coalition Probe III.sub" />
+  <EnemySubmarine file="%ModDir%/Coalition Probe 1.sub" />
+  <EnemySubmarine file="%ModDir%/Coalition Probe 2.sub" />
+  <EnemySubmarine file="%ModDir%/Coalition Probe 3.sub" />
 </contentpackage>
