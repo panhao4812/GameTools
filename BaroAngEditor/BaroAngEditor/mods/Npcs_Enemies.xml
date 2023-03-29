@@ -78,38 +78,6 @@
 				<Item identifier="shotgunshellblunt" amount="6"/>
 			</ItemSet>
 		</npc>
-		<npc identifier="psychoclown2" commonness="0" moduleflags="none" job="killer" behavior="Patrol" healthmultiplier="3" healthmultiplierinmultiplayer="3" aimspeed="1.0" aimaccuracy="1.0" reportrange="1500">
-			<ItemSet commonness="50">
-				<Item identifier="idcard" equip="true"/>
-				<Item identifier="clowncostume" equip="true"/>
-				<Item identifier="clownmask" equip="true"/>
-				<Item identifier="bodyarmor" equip="true"/>
-				<Item identifier="autoinjectorheadset" equip="true">
-					<Item identifier="antibloodloss2" />
-				</Item>
-				<Item identifier="clowndivingmask">
-					<Item identifier="oxygentank" />
-				</Item>
-				<Item identifier="pressurestabilizer" />
-				<Item identifier="ceremonialsword" equip="true"/>
-				<Item identifier="bikehorn" equip="false"/>
-			</ItemSet>
-			<ItemSet commonness="50">
-				<Item identifier="idcard" equip="true"/>
-				<Item identifier="clownsuitunique" equip="true"/>
-				<Item identifier="clownmaskunique" equip="true"/>
-				<Item identifier="bodyarmor" equip="true"/>
-				<Item identifier="autoinjectorheadset" equip="true">
-					<Item identifier="antibloodloss2" />
-				</Item>
-				<Item identifier="clowndivingmask">
-					<Item identifier="oxygentank" />
-				</Item>
-				<Item identifier="pressurestabilizer" />
-				<Item identifier="boardingaxe" equip="true"/>
-				<Item identifier="bikehorn" equip="false"/>
-			</ItemSet>
-		</npc>
 		<npc identifier="huskextremist2" commonness="0" tags="huskcultist" group="husk" moduleflags="crewmodule,researchmodule" job="securityofficer" behavior="Patrol" healthmultiplier="3" healthmultiplierinmultiplayer="3" aimspeed="1" aimaccuracy="1" reportrange="1000">
 			<ItemSet commonness="1">
 				<Item identifier="idcard" equip="true"/>
