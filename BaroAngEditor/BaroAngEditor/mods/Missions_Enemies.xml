@@ -41,7 +41,7 @@
       </ItemSet>
     </npc>
 
-    <npc identifier="securitynpccoalition" job="securityofficer" tags="securitynpc" spawnpointtags="security" healthmultiplier="2" behavior="Patrol">
+    <npc identifier="securitynpccoalition" job="securityofficer" tags="securitynpc" spawnpointtags="security" healthmultiplier="4" behavior="Patrol">
       <ItemSet>
         <Item identifier="securitypatrolclothes" equip="true" />
         <Item identifier="idcard" equip="true" tags="id_outpostsecurity"/>
