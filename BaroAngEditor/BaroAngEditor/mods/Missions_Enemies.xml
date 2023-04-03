@@ -1,5 +1,174 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <override>
+  <npcsets>
+    <npcset identifier="outpostnpcs1">
+    <npc identifier="securitynpcseparatists" job="securityofficer" tags="securitynpc" spawnpointtags="security" healthmultiplier="4" behavior="Patrol">
+      <ItemSet>
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="idcard" equip="true" tags="id_outpostsecurity"/>
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true"/>
+        <Item identifier="autoinjectorheadset" equip="true">
+          <Item identifier="antidama2" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="smgunique">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="smgmagazine" />
+        <Item identifier="handcuffs"/>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="pirateclotheshard" equip="true"/>
+        <Item identifier="idcard" equip="true" tags="id_outpostsecurity"/>
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true"/>
+        <Item identifier="autoinjectorheadset" equip="true">
+          <Item identifier="antidama2" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="shotgununique">
+          <Item identifier="shotgunshellblunt" />
+        </Item>
+        <Item identifier="shotgunshellblunt" amount="6"/>
+        <Item identifier="shotgunshellblunt" amount="6"/>
+        <Item identifier="handcuffs"/>
+      </ItemSet>
+    </npc>
+
+    <npc identifier="securitynpccoalition" job="securityofficer" tags="securitynpc" spawnpointtags="security" healthmultiplier="2" behavior="Patrol">
+      <ItemSet>
+        <Item identifier="securitypatrolclothes" equip="true" />
+        <Item identifier="idcard" equip="true" tags="id_outpostsecurity"/>
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true"/>
+        <Item identifier="autoinjectorheadset" equip="true">
+          <Item identifier="antidama2" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="smg">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="smgmagazine" />
+        <Item identifier="smgmagazine" />
+        <Item identifier="handcuffs"/>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="securitypatrolclothes" equip="true"/>
+        <Item identifier="idcard" equip="true" tags="id_outpostsecurity"/>
+        <Item identifier="piratebodyarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true"/>
+        <Item identifier="autoinjectorheadset" equip="true">
+          <Item identifier="antidama2" />
+        </Item>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="handcannon" equip="true">
+          <Item identifier="handcannonround" amount="6"/>
+        </Item>
+        <Item identifier="handcannonround" amount="6"/>
+        <Item identifier="handcannonround" amount="6"/>
+        <Item identifier="handcuffs"/>
+      </ItemSet>
+    </npc>
+    </npcset>
+    
+    <npcset identifier="abandonedoutpostnpcs">
+      <npc identifier="bandit" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="3" healthmultiplierinmultiplayer="3" aimspeed="1.0" aimaccuracy="1.0" reportrange="1000">
+        <ItemSet commonness="1">
+          <Item identifier="banditclothes1" equip="true"/>
+          <Item identifier="idcard" equip="true"/>
+          <Item identifier="headset" equip="true" showpreview="false"/>
+          <Item identifier="ballistichelmet2" equip="true"/>
+          <Item identifier="bandolier" equip="true"/>
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="rifle" equip="true">
+            <Item identifier="riflebullet" amount="6"/>
+          </Item>
+        </ItemSet>
+        <ItemSet commonness="1">
+          <Item identifier="banditclothes2" equip="true"/>
+          <Item identifier="idcard" equip="true"/>
+          <Item identifier="headset" equip="true" showpreview="false"/>
+          <Item identifier="ballistichelmet2" equip="true"/>
+          <Item identifier="bandolier" equip="true"/>
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="boardingaxe" equip="true"/>
+        </ItemSet>
+      </npc>
+      <npc identifier="banditleader" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="4" healthmultiplierinmultiplayer="5" aimspeed="1.0" aimaccuracy="1.0" reportrange="2750">
+        <ItemSet commonness="1">
+          <Item identifier="captainsuniform2" equip="true"/>
+          <Item identifier="idcard" equip="true"/>
+          <Item identifier="headset" equip="true" showpreview="false"/>
+          <Item identifier="ballistichelmet2" equip="true"/>
+          <Item identifier="bodyarmor" equip="true"/>
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="harpoongun" equip="true">
+            <Item identifier="explosivespear" amount="6"/>
+          </Item>
+        </ItemSet>
+        <ItemSet commonness="1">
+          <Item identifier="captainsuniform2" equip="true"/>
+          <Item identifier="idcard" equip="true"/>
+          <Item identifier="headset" equip="true" showpreview="false"/>
+          <Item identifier="ballistichelmet2" equip="true"/>
+          <Item identifier="bodyarmor" equip="true"/>
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="smg" equip="true">
+            <Item identifier="smgmagazinedepletedfuel"/>
+          </Item>
+        </ItemSet>
+      </npc>
+      <npc identifier="banditleader_heavy" commonness="0" moduleflags="crewmodule,engineeringmodule" job="securityofficer" behavior="Patrol" healthmultiplier="5" healthmultiplierinmultiplayer="5" aimspeed="1.0" aimaccuracy="1.0" reportrange="2750">
+        <ItemSet commonness="1">
+          <Item identifier="captainsuniform2" equip="true"/>
+          <Item identifier="idcard" equip="true"/>
+          <Item identifier="headset" equip="true" showpreview="false"/>
+          <Item identifier="ballistichelmet2" equip="true"/>
+          <Item identifier="bodyarmor" equip="true"/>
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="smgunique" equip="true">
+            <Item identifier="smgmagazinedepletedfuel"/>
+          </Item>
+          <Item identifier="smgmagazinedepletedfuel"/>
+        </ItemSet>
+        <ItemSet commonness="1">
+          <Item identifier="captainsuniform2" equip="true"/>
+          <Item identifier="idcard" equip="true"/>
+          <Item identifier="headset" equip="true" showpreview="false"/>
+          <Item identifier="ballistichelmet2" equip="true"/>
+          <Item identifier="bodyarmor" equip="true"/>
+          <Item identifier="divingmask">
+            <Item identifier="oxygentank" />
+          </Item>
+          <Item identifier="shotgun" equip="true">
+            <Item identifier="shotgunshellblunt" amount="6"/>
+          </Item>
+          <Item identifier="shotgunshellblunt" amount="6"/>
+        </ItemSet>
+      </npc>
+    </npcset>
+  </npcsets>
+  <!--///////////////////////////////////////mission////////////////////////////////-->
   <Missions>
     <MonsterMission
 		  identifier="killmopingjack"
@@ -42,7 +211,7 @@
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killhammerhead" text="missionmessage0.killhammerhead"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killhammerhead2"
 		  textidentifier="killhammerhead"
@@ -59,7 +228,7 @@
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killhammerhead" text="missionmessage0.killhammerhead"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killmatriarch1"
 		  tags="killmonster,killmonster_set4"
@@ -75,7 +244,7 @@
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killmatriarch1" text="missionmessage0.killmatriarch1"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killmatriarch2"
 		  tags="killmonster,killmonster_set3"
@@ -350,7 +519,7 @@
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killcrawlerswarm1" text="missionmessage0.killcrawlerswarm1"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killmudraptors_basic"
 		  textidentifier="killmudraptors1"
@@ -365,7 +534,7 @@
       <Reputation identifier="location" amount="1" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,512,256,256" color="214,50,48"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killmudraptors1"
 		  tags="killmonster,killswarm,killswarm_set2"
