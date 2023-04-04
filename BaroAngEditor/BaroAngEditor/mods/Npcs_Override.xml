@@ -175,7 +175,7 @@
         </ItemSet>
       </npc>
 
-      <npc identifier="merchantoutpost" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="StayInHull">
+      <npc identifier="merchantoutpost" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="Passive">
         <ItemSet commonness="1">
           <Item identifier="crewchiefclothes" equip="true"/>
           <Item identifier="idcard" equip="true"/>
@@ -194,7 +194,7 @@
         </ItemSet>
       </npc>
 
-      <npc identifier="merchantcity" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="StayInHull">
+      <npc identifier="merchantcity" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="Passive">
         <ItemSet commonness="1">
           <Item identifier="crewchiefclothes" equip="true"/>
           <Item identifier="idcard" equip="true"/>
@@ -213,7 +213,7 @@
         </ItemSet>
       </npc>
 
-      <npc identifier="merchantmine" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="StayInHull">
+      <npc identifier="merchantmine" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="Passive">
         <ItemSet commonness="1">
           <Item identifier="crewchiefclothes" equip="true"/>
           <Item identifier="idcard" equip="true"/>
@@ -232,7 +232,7 @@
         </ItemSet>
       </npc>
 
-      <npc identifier="merchantresearch" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="StayInHull">
+      <npc identifier="merchantresearch" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="Passive">
         <ItemSet commonness="1">
           <Item identifier="crewchiefclothes" equip="true"/>
           <Item identifier="idcard" equip="true"/>
@@ -251,7 +251,7 @@
         </ItemSet>
       </npc>
 
-      <npc identifier="merchantmilitary" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="StayInHull">
+      <npc identifier="merchantmilitary" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="Passive">
         <ItemSet commonness="1">
           <Item identifier="crewchiefclothes" equip="true"/>
           <Item identifier="idcard" equip="true"/>
@@ -371,7 +371,7 @@
         </ItemSet>
       </npc>
 
-      <npc identifier="armsdealer" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="StayInHull">
+      <npc identifier="armsdealer" job="watchman" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="Passive">
         <ItemSet commonness="1">
           <Item identifier="crewchiefclothes" equip="true"/>
           <Item identifier="idcard" equip="true"/>
@@ -613,17 +613,21 @@
         </ItemSet>
       </npc>
 
-      <npc identifier="researcher" commonness="0" moduleflags="none" job="medicaldoctor" behavior="Passive" healthmultiplier="3" ModuleFlags="ResearchModule" preferredoutpostmoduletypes="researchmodule,crewmodule">
+      <npc identifier="researcher" commonness="0" moduleflags="none" job="medicaldoctor" behavior="Patrol" healthmultiplier="3" ModuleFlags="ResearchModule" preferredoutpostmoduletypes="researchmodule,crewmodule">
         <ItemSet commonness="1">
           <Item identifier="idcard" equip="true"/>
           <Item identifier="researcherclothes" equip="true"/>
+			<Item identifier="autoinjectorheadset" equip="true">
+				<Item identifier="antidama2" />
+			</Item>
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>
+			<Item identifier="divingknife" />
         </ItemSet>
       </npc>
 
-      <npc identifier="miner" commonness="0" moduleflags="none" job="mechanic" behavior="Passive" healthmultiplier="3" preferredoutpostmoduletypes="crewmodule">
+      <npc identifier="miner" commonness="0" moduleflags="none" job="mechanic" behavior="Patrol" healthmultiplier="3" preferredoutpostmoduletypes="crewmodule">
         <ItemSet commonness="1">
           <Item identifier="idcard" equip="true"/>
           <Item identifier="minerclothes" equip="true"/>
@@ -631,6 +635,7 @@
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>
+			<Item identifier="boardingaxe" equip="true"/>
         </ItemSet>
         <ItemSet commonness="1">
           <Item identifier="minerclothes" equip="true"/>
@@ -640,6 +645,7 @@
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>
+			<Item identifier="boardingaxe" equip="true"/>
         </ItemSet>
         <ItemSet commonness="1">
           <Item identifier="idcard" equip="true"/>
@@ -648,6 +654,7 @@
           <Item identifier="divingmask">
             <Item identifier="oxygentank" />
           </Item>
+			<Item identifier="boardingaxe" equip="true"/>
         </ItemSet>
       </npc>
 
