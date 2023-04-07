@@ -1,0 +1,6 @@
+<Charactervariant inherit="Endworm" speciesname="Doomworm_m" usebosshealthbar="true">
+  <health vitality="15000"/>
+  <ragdoll scalemultiplier="1.2"/>
+  <!--<attack damagemultiplier="2" rangemultiplier="1.5" impactmultiplier="2"/>-->
+  <ai combatstrength="12000" sight="0.5" hearing="13" avoidabyss="False" stayinabyss="true"/>
+</Charactervariant>

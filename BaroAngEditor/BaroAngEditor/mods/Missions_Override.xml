@@ -96,12 +96,14 @@
 		  identifier="killmoloch"
 		  tags="killmonster,killmonster_set3"
 		  type="Monster"
-		  difficulty="1"
+		  difficulty="5"
 		  commonness="100"
-		  reward="1000"
+		  reward="7000"
 		  maxsonarmarkerdistance="10000"
 		  monsterfile="Moloch_m">
-      <Reputation identifier="location" amount="1" />
+      <monster character="Molochblack_m" min="4" max="6"/>
+      <monster character="watcher" min="1" max="1" />
+      <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
       <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
     </MonsterMission>
@@ -117,6 +119,7 @@
 		  maxsonarmarkerdistance="10000"
 		  monsterfile="Molochblack_m">
       <monster character="Moloch_m" min="3" max="5"/>
+      <monster character="watcher" min="1" max="1" />
       <Reputation identifier="location" amount="3" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
       <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
@@ -195,6 +198,7 @@
 		  commonness="100"
 		  reward="4000"
 		  maxsonarmarkerdistance="10000">
+      <monster character="watcher" min="1" max="1" />
       <monster character="tigerthresher" min="8" max="12"/>
       <monster character="bonethresher" min="8" max="12"/>
       <Reputation identifier="location" amount="4" />
@@ -239,7 +243,7 @@
 		  textidentifier="killcrawlerbroodmother1"
 		  type="Monster"
 		  difficulty="2"
-		  commonness="50"
+		  commonness="100"
 		  reward="2000"
 		  maxsonarmarkerdistance="10000"
 		  sonarlabel="character.crawler"
@@ -260,8 +264,9 @@
 		  maxsonarmarkerdistance="10000"
 		  sonarlabel="character.crawler"
 		  monsterfile="crawlerbroodmother_m">
+      <monster character="watcher" min="1" max="1" />
       <monster character="crawler" min="9" max="12"/>
-      <monster character="crawlerhusk" min="9" max="12"/>
+      <monster character="Crawler_large" min="9" max="12"/>
       <Reputation identifier="location" amount="3" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killcrawlerbroodmother1" text="missionmessage0.killcrawlerbroodmother1"/>
@@ -275,7 +280,7 @@
 		  commonness="100"
 		  reward="1000"
 		  maxsonarmarkerdistance="10000">
-      <monster character="crawler" min="6" max="12"/>
+      <monster character="crawlerhusk" min="6" max="12"/>
       <Reputation identifier="location" amount="1" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killcrawlerswarm1" text="missionmessage0.killcrawlerswarm1"/>
@@ -307,8 +312,8 @@
 		  commonness="100"
 		  reward="3000"
 		  maxsonarmarkerdistance="10000">
-      <monster character="crawlerhusk" min="1" max="4"/>
-      <monster character="crawlerbroodmother" min="4" max="5"/>
+      <monster character="Crawler_large" min="5" max="8"/>
+      <monster character="crawlerbroodmother" min="3" max="5"/>
       <Reputation identifier="location" amount="3" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killcrawlerswarm2" text="missionmessage0.killcrawlerswarm2"/>
@@ -326,7 +331,8 @@
 		  reward="4000"
 		  successmessage="missionsuccess.killcrawlerswarm1"
 		  maxsonarmarkerdistance="10000">
-      <monster character="crawlerbroodmother" min="6" max="8"/>
+      <monster character="Crawler_large" min="5" max="8"/>
+      <monster character="crawlerbroodmother" min="5" max="8"/>
       <Reputation identifier="location" amount="4" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killcrawlerswarm1" text="missionmessage0.killcrawlerswarm1"/>
@@ -344,8 +350,7 @@
 		  reward="7000"
 		  successmessage="missionsuccess.killcrawlerswarm1"
 		  maxsonarmarkerdistance="10000">
-      <monster character="crawlerbroodmother" min="9" max="12"/>
-      <monster character="crawler" min="12" max="15"/>
+      <monster character="crawlerbroodmother" min="8" max="9"/>
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killcrawlerswarm1" text="missionmessage0.killcrawlerswarm1"/>
@@ -393,7 +398,7 @@
 		  reward="7000"
 		  sonarlabel="character.mudraptor"
 		  maxsonarmarkerdistance="10000">
-      <monster character="mudraptor_unarmored" min="1" max="2"/>
+      <monster character="watcher" min="1" max="1" />
       <monster character="mudraptor" min="12" max="15"/>
       <monster character="mudraptor_veteran" min="12" max="15"/>
       <Reputation identifier="location" amount="5" />
@@ -407,15 +412,17 @@
 	  tags="huntinggrounds,hard"
 	  type="Monster"
 	  sideobjective="true"
-	  difficulty="4"
-	  commonness="0"
-	  reward="4000"
+	  difficulty="5"
+	  commonness="1"
+	  reward="8000"
 	  sonarlabel="target"
 	  spawntype="Abyss"
 	  maxsonarmarkerdistance="20000"
-	  successmessage=""
+	  successmessage="missionsuccess.huntinggrounds"
 	  monsterfile="Endworm">
-      <Reputation identifier="location" amount="4" />
+      <monster character="Charybdis" min="0" max="1" />
+      <monster character="Latcher" min="0" max="1" />
+      <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48"/>
       <message header="missionheader0.huntinggrounds1" text="missionmessage0.huntinggrounds1"/>
     </MonsterMission>
@@ -426,15 +433,17 @@
 		  tags="huntinggrounds"
 		  type="Monster"
 		  sideobjective="true"
-		  difficulty="4"
-		  commonness="0"
-		  reward="4000"
+		  difficulty="5"
+		  commonness="1"
+		  reward="8000"
 		  sonarlabel="target"
 		  spawntype="Abyss"
 		  maxsonarmarkerdistance="20000"
-		  successmessage=""
+		  successmessage="missionsuccess.huntinggrounds"
 		  monsterfile="Charybdis">
-      <Reputation identifier="location" amount="4" />
+      <monster character="Latcher" min="1" max="1" />
+      <monster character="Endworm" min="0" max="1" />
+      <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48"/>
       <message header="missionheader0.huntinggrounds1" text="missionmessage0.huntinggrounds1"/>
     </MonsterMission>
@@ -445,17 +454,38 @@
 		  tags="huntinggrounds,easy"
 		  type="Monster"
 		  sideobjective="true"
-		  difficulty="4"
-		  commonness="0"
-		  reward="4000"
+		  difficulty="5"
+		  commonness="1"
+		  reward="8000"
 		  sonarlabel="target"
 		  spawntype="Abyss"
 		  maxsonarmarkerdistance="20000"
-		  successmessage=""
+		  successmessage="missionsuccess.huntinggrounds"
 		  monsterfile="Latcher">
-      <Reputation identifier="location" amount="3" />
+      <monster character="Charybdis" min="1" max="1" />
+      <monster character="Endworm" min="0" max="1" />
+      <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48"/>
       <message header="missionheader0.huntinggrounds1" text="missionmessage0.huntinggrounds1"/>
+    </MonsterMission>
+
+    <MonsterMission
+	  identifier="huntinggrounds4"
+	  textidentifier="huntinggrounds"
+	  tags="huntinggrounds,hard"
+	  type="Monster"
+	  sideobjective="true"
+	  difficulty="5"
+	  commonness="1"
+	  reward="28000"
+	  sonarlabel="target"
+	  spawntype="Abyss"
+	  maxsonarmarkerdistance="20000"
+	  successmessage="missionsuccess.huntinggrounds"
+	  monsterfile="Doomworm_m">
+      <Reputation identifier="location" amount="5" />
+      <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
+      <message header="missionheader0.huntinggrounds1" text="missionheader0.huntinggrounds1" />
     </MonsterMission>
 
     <CargoMission
@@ -671,17 +701,17 @@
 		  commonness="200"
 		  reward="3500">
       <monsters commonness="30">
-        <monster character="Crawler" min="0" max="8"/>
+        <monster character="Crawler" min="3" max="8"/>
       </monsters>
       <monsters commonness="30">
-        <monster character="Mudraptor" min="0" max="5"/>
+        <monster character="Mudraptor" min="3" max="5"/>
         <monster character="Mudraptor_unarmored" min="0" max="3"/>
       </monsters>
       <monsters commonness="90">
-        <monster character="Husk" min="0" max="15"/>
+        <monster character="Husk" min="5" max="15"/>
       </monsters>
       <monsters commonness="30">
-        <monster character="Tigerthresher" min="0" max="5"/>
+        <monster character="Tigerthresher" min="3" max="5"/>
         <monster character="Bonethresher" min="0" max="3"/>
       </monsters>
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,256,256,256" color="243,146,55"/>
@@ -695,21 +725,21 @@
 		  type="Beacon"
 		  difficulty="3"
 		  commonness="0"
-		  reward="3500"
+		  reward="3800"
 		  sideobjective="true">
       <monsters commonness="50">
-        <monster character="Crawler" min="0" max="8"/>
+        <monster character="Crawler" min="3" max="8"/>
       </monsters>
       <monsters commonness="50">
-        <monster character="Mudraptor" min="0" max="3"/>
-        <monster character="Mudraptor_unarmored" min="0" max="5"/>
-      </monsters>
-      <monsters commonness="10">
-        <monster character="Husk" min="0" max="15"/>
+        <monster character="Mudraptor" min="1" max="3"/>
+        <monster character="Mudraptor_unarmored" min="2" max="5"/>
       </monsters>
       <monsters commonness="50">
-        <monster character="Tigerthresher" min="0" max="3"/>
-        <monster character="Bonethresher" min="0" max="5"/>
+        <monster character="Husk" min="5" max="15"/>
+      </monsters>
+      <monsters commonness="50">
+        <monster character="Tigerthresher" min="1" max="3"/>
+        <monster character="Bonethresher" min="2" max="5"/>
       </monsters>
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,256,256,256" color="243,146,55"/>
       <message text="missionmessage0.beaconmission" />
