@@ -79,9 +79,9 @@
 					<Item identifier="oxygentank" />
 				</Item>
 				<Item identifier="shotgun" equip="true">
-					<Item identifier="shotgunshellblunt" amount="6"/>
+					<Item identifier="shotgunslugexplosive" amount="6"/>
 				</Item>
-				<Item identifier="shotgunshellblunt" amount="6"/>
+				<Item identifier="shotgunslugexplosive" amount="6"/>
 			</ItemSet>
 		</npc>
 		<npc identifier="huskextremist2" commonness="0" tags="huskcultist" group="husk" moduleflags="crewmodule,researchmodule" job="securityofficer" behavior="Patrol" healthmultiplier="3" healthmultiplierinmultiplayer="3" aimspeed="1" aimaccuracy="1" reportrange="1000">
@@ -207,9 +207,9 @@
 					<Item identifier="oxygentank" />
 				</Item>
 				<Item identifier="shotgununique" equip="true">
-					<Item identifier="shotgunshellblunt" amount="2"/>
+					<Item identifier="shotgunslugexplosive" amount="2"/>
 				</Item>
-				<Item identifier="shotgunshellblunt" amount="6"/>
+				<Item identifier="shotgunslugexplosive" amount="6"/>
 			</ItemSet>
 		</npc>
 		<npc identifier="separatistengineer2" job="engineer" behavior="Patrol" healthmultiplier="8" aimspeed="1.0" aimaccuracy="1.0">
@@ -317,7 +317,7 @@
 					<Item identifier="oxygentank" />
 				</Item>
 				<Item identifier="shotgun" equip="true">
-					<Item identifier="shotgunshellblunt" amount="6"/>
+					<Item identifier="shotgunslugexplosive" amount="6"/>
 				</Item>
 			</ItemSet>
 		</npc>

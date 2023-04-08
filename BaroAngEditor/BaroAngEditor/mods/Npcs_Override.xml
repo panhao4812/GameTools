@@ -426,10 +426,10 @@
             <Item identifier="oxygentank" />
           </Item>
           <Item identifier="shotgununique">
-            <Item identifier="shotgunshellblunt" />
+            <Item identifier="shotgunslugexplosive" />
           </Item>
-          <Item identifier="shotgunshellblunt" amount="6"/>
-          <Item identifier="shotgunshellblunt" amount="6"/>
+          <Item identifier="shotgunslugexplosive" amount="6"/>
+          <Item identifier="shotgunslugexplosive" amount="6"/>
           <Item identifier="handcuffs"/>
         </ItemSet>
       </npc>
@@ -514,9 +514,9 @@
             <Item identifier="oxygentank" />
           </Item>
           <Item identifier="shotgun">
-            <Item identifier="shotgunshellblunt" />
+            <Item identifier="shotgunslugexplosive" />
           </Item>
-          <Item identifier="shotgunshellblunt" amount="6"/>
+          <Item identifier="shotgunslugexplosive" amount="6"/>
         </ItemSet>
       </npc>
 
@@ -533,9 +533,9 @@
             <Item identifier="oxygentank" />
           </Item>
           <Item identifier="shotgun">
-            <Item identifier="shotgunshellblunt" />
+            <Item identifier="shotgunslugexplosive" />
           </Item>
-          <Item identifier="shotgunshellblunt" amount="6"/>
+          <Item identifier="shotgunslugexplosive" amount="6"/>
         </ItemSet>
       </npc>
 
@@ -558,7 +558,7 @@
             <Item identifier="oxygentank" />
           </Item>
           <Item identifier="shotgun" equip="true">
-            <Item identifier="shotgunshellblunt" amount="6"/>
+            <Item identifier="shotgunslugexplosive" amount="6"/>
           </Item>
         </ItemSet>
         <ItemSet commonness="1">
@@ -1127,9 +1127,9 @@
             <Item identifier="oxygentank" />
           </Item>
           <Item identifier="shotgun" equip="true">
-            <Item identifier="shotgunshellblunt" amount="6"/>
+            <Item identifier="shotgunslugexplosive" amount="6"/>
           </Item>
-          <Item identifier="shotgunshellblunt" amount="6"/>
+          <Item identifier="shotgunslugexplosive" amount="6"/>
         </ItemSet>
       </npc>
       <npc identifier="hostage" tags="hostage,prisoner" job="assistant" moduleflags="none" behavior="Passive">

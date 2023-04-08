@@ -7,5 +7,5 @@
   <EnemySubmarine file="%ModDir%/Coalition Probe 1.sub" />
   <EnemySubmarine file="%ModDir%/Coalition Probe 2.sub" />
   <EnemySubmarine file="%ModDir%/Coalition Probe 3.sub" />
-  <Item file="Charactervariant_Custom.xml"/>
+  <Character file="%ModDir%/Charactervariant_Custom.xml"/>
 </contentpackage>
