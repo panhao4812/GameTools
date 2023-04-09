@@ -441,8 +441,7 @@
 		  maxsonarmarkerdistance="20000"
 		  successmessage="missionsuccess.huntinggrounds"
 		  monsterfile="Charybdis">
-      <monster character="Latcher" min="1" max="1" />
-      <monster character="Endworm" min="0" max="1" />
+      <monster character="Latcher" min="0" max="2" />
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48"/>
       <message header="missionheader0.huntinggrounds1" text="missionmessage0.huntinggrounds1"/>
@@ -462,8 +461,7 @@
 		  maxsonarmarkerdistance="20000"
 		  successmessage="missionsuccess.huntinggrounds"
 		  monsterfile="Latcher">
-      <monster character="Charybdis" min="1" max="1" />
-      <monster character="Endworm" min="0" max="1" />
+	  <monster character="Charybdis" min="0" max="2" />
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48"/>
       <message header="missionheader0.huntinggrounds1" text="missionmessage0.huntinggrounds1"/>
@@ -477,7 +475,7 @@
 	  sideobjective="true"
 	  difficulty="5"
 	  commonness="1"
-	  reward="28000"
+	  reward="12000"
 	  sonarlabel="target"
 	  spawntype="Abyss"
 	  maxsonarmarkerdistance="20000"
