@@ -78,7 +78,7 @@
 
     <MonsterMission
 		  identifier="killmatriarch2"
-		  tags="killmonster,killmonster_set3"
+		  tags="killmonster,killmonster_set4"
 		  type="Monster"
 		  difficulty="5"
 		  commonness="100"
@@ -93,41 +93,56 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killmoloch"
-		  tags="killmonster,killmonster_set3"
-		  type="Monster"
-		  difficulty="5"
-		  commonness="100"
-		  reward="7000"
-		  maxsonarmarkerdistance="10000"
-		  monsterfile="Moloch_m">
-      <monster character="Molochblack_m" min="4" max="6"/>
-      <monster character="watcher" min="1" max="1" />
-      <Reputation identifier="location" amount="5" />
-      <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
-      <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
-    </MonsterMission>
-
-    <MonsterMission
 		  identifier="killmolochblack"
-		  tags="killmonster,killmonster_set4"
+		  tags="killmonster,killmonster_set3"
 		  textidentifier="killmoloch"
 		  type="Monster"
 		  difficulty="3"
 		  commonness="100"
 		  reward="3000"
 		  maxsonarmarkerdistance="10000"
-		  monsterfile="Molochblack_m">
-      <monster character="Moloch_m" min="3" max="5"/>
-      <monster character="watcher" min="1" max="1" />
+		  monsterfile="Moloch_m">
+      <monster character="Molochblack_m" min="2" max="3"/>
       <Reputation identifier="location" amount="3" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
       <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
     </MonsterMission>
-
+    
+    <MonsterMission
+		  identifier="killmolochblack2"
+		  tags="killmonster,killmonster_set4"
+      textidentifier="killmoloch"
+		  type="Monster"
+		  difficulty="4"
+		  commonness="100"
+		  reward="4000"
+		  maxsonarmarkerdistance="10000"
+		  monsterfile="Moloch_m">
+      <monster character="Molochblack_m" min="4" max="5"/>
+      <Reputation identifier="location" amount="4" />
+      <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
+      <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
+    </MonsterMission>
+    
+    <MonsterMission
+		  identifier="killmoloch"
+		  tags="killmonster,killmonster_set4"
+		  type="Monster"
+		  difficulty="5"
+		  commonness="100"
+		  reward="7000"
+		  maxsonarmarkerdistance="10000"
+		  monsterfile="Molochgiant">
+      <monster character="Molochblack_m" min="5" max="6"/>
+      <monster character="watcher" min="1" max="1" />
+      <Reputation identifier="location" amount="5" />
+      <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
+      <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
+    </MonsterMission>
+    
     <MonsterMission
 		  identifier="killgiantspineling1"
-		  tags="killmonster,killmonster_set2"
+		  tags="killmonster,killmonster_set1"
 		  type="Monster"
 		  difficulty="1"
 		  commonness="100"
@@ -144,7 +159,7 @@
     <MonsterMission
 		  identifier="killgiantspineling2"
 		  textidentifier="killgiantspineling1"
-		  tags="killmonster,killmonster_set3"
+		  tags="killmonster,killmonster_set2"
 		  type="Monster"
 		  difficulty="2"
 		  commonness="100"
@@ -163,36 +178,69 @@
 		  textidentifier="killcrawlerswarm1"
 		  name="missionname.killspinelingswarm1"
 		  description="missiondescription.killspinelingswarm1"
-		  tags="killmonster,killswarm,killswarm_set1"
+		  tags="killmonster,killswarm,killswarm_set3"
 		  type="Monster"
 		  difficulty="3"
 		  commonness="100"
 		  reward="3000"
 		  maxsonarmarkerdistance="10000">
+      <monster character="watcher" min="1" max="1" />
       <monster character="spineling_giant" min="6" max="8"/>
       <Reputation identifier="location" amount="3" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
     </MonsterMission>
 
     <MonsterMission
+		  identifier="killgiantspineling3"
+		  textidentifier="killgiantspineling1"
+		  tags="killmonster,killmonster_set4"
+		  type="Monster"
+		  difficulty="4"
+		  commonness="100"
+		  reward="4000"
+		  maxsonarmarkerdistance="10000"
+		  sonarlabel="character.spineling">
+      <monster character="watcher" min="1" max="1" />
+      <monster character="spineling_giant" min="9" max="13"/>
+      <Reputation identifier="location" amount="4" />
+      <Icon texture="Content/UI/MissionIcons.png" sourcerect="768,768,256,256" color="214,50,48"/>
+      <message header="missionheader0.killgiantspineling1" text="missionmessage0.killgiantspineling1"/>
+    </MonsterMission>
+    
+    <MonsterMission
 		  identifier="killthresherswarm1"
-		  tags="killmonster,killswarm,killswarm_set4"
+		  tags="killmonster,killswarm,killswarm_set2"
 		  type="Monster"
 		  difficulty="2"
 		  commonness="100"
 		  reward="2000"
 		  maxsonarmarkerdistance="10000">
-      <monster character="tigerthresher" min="6" max="8"/>
-      <monster character="bonethresher" min="4" max="6"/>
+      <monster character="tigerthresher" min="5" max="8"/>
+      <monster character="bonethresher" min="3" max="6"/>
       <Reputation identifier="location" amount="2" />
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="768,256,256,256" color="214,50,48"/>
       <message header="missionheader0.killthresherswarm1" text="missionmessage0.killthresherswarm1"/>
     </MonsterMission>
-
+    
     <MonsterMission
 		  identifier="killthresherswarm2"
-		  textidentifier="killthresherswarm1"
 		  tags="killmonster,killswarm,killswarm_set3"
+		  type="Monster"
+		  difficulty="3"
+		  commonness="100"
+		  reward="3000"
+		  maxsonarmarkerdistance="10000">
+      <monster character="watcher" min="1" max="1" />
+      <monster character="bonethresher" min="10" max="12"/>
+      <Reputation identifier="location" amount="3" />
+      <Icon texture="Content/UI/MissionIcons.png" sourcerect="768,256,256,256" color="214,50,48"/>
+      <message header="missionheader0.killthresherswarm1" text="missionmessage0.killthresherswarm1"/>
+    </MonsterMission>
+    
+    <MonsterMission
+		  identifier="killthresherswarm3"
+		  textidentifier="killthresherswarm1"
+		  tags="killmonster,killswarm,killswarm_set4"
 		  type="Monster"
 		  difficulty="4"
 		  commonness="100"
@@ -223,7 +271,7 @@
 
     <MonsterMission
 		  identifier="killcrawlerbroodmother1"
-		  tags="killmonster,killmonster_set2"
+		  tags="killmonster,killmonster_set1"
 		  type="Monster"
 		  difficulty="1"
 		  commonness="50"
@@ -239,7 +287,7 @@
 
     <MonsterMission
 		  identifier="killcrawlerbroodmother2"
-		  tags="killmonster,killmonster_set3"
+		  tags="killmonster,killmonster_set2"
 		  textidentifier="killcrawlerbroodmother1"
 		  type="Monster"
 		  difficulty="2"
@@ -255,7 +303,7 @@
 
     <MonsterMission
 		  identifier="killcrawlerbroodmother3"
-		  tags="killmonster,killmonster_set4"
+		  tags="killmonster,killmonster_set3"
 		  textidentifier="killcrawlerbroodmother1"
 		  type="Monster"
 		  difficulty="3"
@@ -306,7 +354,7 @@
 		  identifier="killcrawlerswarm2b"
 		  textidentifier="killcrawlerswarm2"
 		  name="missionname.killcrawlerswarm1large"
-		  tags="killmonster,killswarm,killswarm_set2"
+		  tags="killmonster,killswarm,killswarm_set3"
 		  type="Monster"
 		  difficulty="3"
 		  commonness="100"
@@ -324,7 +372,7 @@
 		  sonarlabel="character.crawler"
 		  name="missionname.killcrawlerswarm1large"
 		  description="missiondescription.killcrawlerswarm1large"
-		  tags="killmonster,killswarm,killswarm_set1"
+		  tags="killmonster,killswarm,killswarm_set4"
 		  type="Monster"
 		  difficulty="4"
 		  commonness="100"
@@ -343,7 +391,7 @@
 		  sonarlabel="character.crawler"
 		  name="missionname.killcrawlerswarm1huge"
 		  description="missiondescription.killcrawlerswarm1huge"
-		  tags="killmonster,killswarm,killswarm_set2"
+		  tags="killmonster,killswarm,killswarm_set4"
 		  type="Monster"
 		  difficulty="5"
 		  commonness="100"
@@ -373,7 +421,7 @@
 
     <MonsterMission
 		  identifier="killmudraptors1"
-		  tags="killmonster,killswarm,killswarm_set2"
+		  tags="killmonster,killswarm,killswarm_set3"
 		  type="Monster"
 		  difficulty="3"
 		  commonness="100"
@@ -391,7 +439,7 @@
     <MonsterMission
 		  identifier="killmudraptors2"
 		  textidentifier="killmudraptors1"
-		  tags="killmonster,killswarm,killswarm_set3"
+		  tags="killmonster,killswarm,killswarm_set4"
 		  type="Monster"
 		  difficulty="5"
 		  commonness="100"
@@ -480,7 +528,7 @@
 	  spawntype="Abyss"
 	  maxsonarmarkerdistance="20000"
 	  successmessage="missionsuccess.huntinggrounds"
-	  monsterfile="Doomworm_m">
+	  monsterfile="Abyssworm">
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
       <message header="missionheader0.huntinggrounds1" text="missionheader0.huntinggrounds1" />
