@@ -396,6 +396,40 @@
         <Item identifier="calyxanide" amount="3"/>
         <Item identifier="deliriumineantidote" amount="3"/>
 			</ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="commonerclothes2" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="shotgun" equip="true">
+          <Item identifier="shotgunslugexplosive" amount="6"/>
+        </Item>
+        <Item identifier="antirad" amount="3"/>
+        <Item identifier="cyanideantidote" amount="3"/>
+        <Item identifier="sufforinantidote" amount="3"/>
+        <Item identifier="morbusineantidote" amount="3"/>
+        <Item identifier="calyxanide" amount="3"/>
+        <Item identifier="deliriumineantidote" amount="3"/>
+      </ItemSet>
+      <ItemSet commonness="1">
+        <Item identifier="commonerclothes3" equip="true" />
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false"/>
+        <Item identifier="divingmask">
+          <Item identifier="oxygentank" />
+        </Item>
+        <Item identifier="smg">
+          <Item identifier="smgmagazine" />
+        </Item>
+        <Item identifier="antirad" amount="3"/>
+        <Item identifier="cyanideantidote" amount="3"/>
+        <Item identifier="sufforinantidote" amount="3"/>
+        <Item identifier="morbusineantidote" amount="3"/>
+        <Item identifier="calyxanide" amount="3"/>
+        <Item identifier="deliriumineantidote" amount="3"/>
+      </ItemSet>
 		</npc>
 	</npcset>
 </npcsets>
