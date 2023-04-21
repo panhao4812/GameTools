@@ -368,34 +368,33 @@
 	<!--                     Mission  NPCs                                         -->
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<npcset identifier="customnpcs2">
-		<npc identifier="coalitionspy2" faction="coalition" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="3" aimspeed="1.0" aimaccuracy="1.0">
+		<npc identifier="coalitionspy2" faction="coalition" job="securityofficer" spawnpointtags="security" behavior="Patrol" healthmultiplier="5" aimspeed="1.0" aimaccuracy="1.0">
 			<Character speciesname="human" tags="head8,female" hairindex="9" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="200,165,131,255" haircolor="199,125,82,255" facialhaircolor="58,58,60,255" personality="rude">
 				<job name="Captain" identifier="captain">
 					<skill identifier="weapons" level="100" />
-					<skill identifier="helm" level="100" />
-					<skill identifier="mechanical" level="80" />
-					<skill identifier="electrical" level="80" />
-					<skill identifier="medical" level="50" />
+					<skill identifier="helm" level="30" />
+					<skill identifier="mechanical" level="50" />
+					<skill identifier="electrical" level="50" />
+					<skill identifier="medical" level="100" />
 				</job>
 				<savedstatvalues />
 			</Character>
 			<ItemSet commonness="1">
-				<Item identifier="securityuniform1" equip="true" />
+				<Item identifier="commonerclothes1" equip="true" />
 				<Item identifier="idcard" equip="true" />
 				<Item identifier="headset" equip="true" showpreview="false"/>
-				<Item identifier="pucs" equip="true">
-					<Item identifier="oxygentank" />
-				</Item>
-				<Item identifier="ballistichelmet1" equip="true" />
 				<Item identifier="divingmask">
 					<Item identifier="oxygentank" />
 				</Item>
 				<Item identifier="handcannon" equip="false">
 					<Item identifier="handcannonround" amount="6"/>
 				</Item>
-				<Item identifier="handcannonround" amount="6"/>
-				<Item identifier="handcannonround" amount="6"/>
-				<Item identifier="divingknife" />
+				<Item identifier="antirad" amount="3"/>
+				<Item identifier="cyanideantidote" amount="3"/>
+        <Item identifier="sufforinantidote" amount="3"/>
+        <Item identifier="morbusineantidote" amount="3"/>
+        <Item identifier="calyxanide" amount="3"/>
+        <Item identifier="deliriumineantidote" amount="3"/>
 			</ItemSet>
 		</npc>
 	</npcset>
