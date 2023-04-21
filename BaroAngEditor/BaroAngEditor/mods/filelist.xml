@@ -6,6 +6,8 @@
   <Missions file="%ModDir%/Missions_Override.xml" />
   <EnemySubmarine file="%ModDir%/Coalition Probe 1.sub" />
   <EnemySubmarine file="%ModDir%/Coalition Probe 2.sub" />
-  <Character file="%ModDir%/Charactervariant_Custom.xml" />
+  <Character file="%ModDir%/Abyssworm.xml" />
+  <Character file="%ModDir%/Molochgiant.xml" />
+  <Character file="%ModDir%/Molochabyss.xml" />
   <EnemySubmarine file="%ModDir%/Coalition Probe 3.sub" />
 </contentpackage>

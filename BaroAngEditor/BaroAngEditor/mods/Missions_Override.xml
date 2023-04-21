@@ -101,13 +101,13 @@
 		  commonness="100"
 		  reward="3000"
 		  maxsonarmarkerdistance="10000"
-		  monsterfile="Moloch_m">
-      <monster character="Molochblack_m" min="2" max="3"/>
+		  monsterfile="Molochblack_m">
+      <monster character="Moloch_m" min="2" max="3"/>
       <Reputation identifier="location" amount="3" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
       <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killmolochblack2"
 		  tags="killmonster,killmonster_set4"
@@ -117,13 +117,14 @@
 		  commonness="100"
 		  reward="4000"
 		  maxsonarmarkerdistance="10000"
-		  monsterfile="Moloch_m">
-      <monster character="Molochblack_m" min="4" max="5"/>
+		  monsterfile="Molochblack_m">
+      <monster character="Molochabyss" min="0" max="1"/>
+      <monster character="Molochgiant" min="1" max="3"/>
       <Reputation identifier="location" amount="4" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
       <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killmoloch"
 		  tags="killmonster,killmonster_set4"
@@ -132,14 +133,15 @@
 		  commonness="100"
 		  reward="7000"
 		  maxsonarmarkerdistance="10000"
-		  monsterfile="Molochgiant">
-      <monster character="Molochblack_m" min="5" max="6"/>
+		  monsterfile="Molochabyss">
+      <monster character="Molochgiant" min="2" max="3"/>
+      <monster character="Moloch_m" min="3" max="4"/>
       <monster character="watcher" min="1" max="1" />
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48"/>
       <message header="missionheader0.killmoloch" text="missionmessage0.killmoloch"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killgiantspineling1"
 		  tags="killmonster,killmonster_set1"
@@ -206,7 +208,7 @@
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killgiantspineling1" text="missionmessage0.killgiantspineling1"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killthresherswarm1"
 		  tags="killmonster,killswarm,killswarm_set2"
@@ -221,7 +223,7 @@
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="768,256,256,256" color="214,50,48"/>
       <message header="missionheader0.killthresherswarm1" text="missionmessage0.killthresherswarm1"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killthresherswarm2"
 		  tags="killmonster,killswarm,killswarm_set3"
@@ -236,7 +238,7 @@
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="768,256,256,256" color="214,50,48"/>
       <message header="missionheader0.killthresherswarm1" text="missionmessage0.killthresherswarm1"/>
     </MonsterMission>
-    
+
     <MonsterMission
 		  identifier="killthresherswarm3"
 		  textidentifier="killthresherswarm1"
@@ -509,7 +511,7 @@
 		  maxsonarmarkerdistance="20000"
 		  successmessage="missionsuccess.huntinggrounds"
 		  monsterfile="Latcher">
-	  <monster character="Charybdis" min="0" max="2" />
+      <monster character="Charybdis" min="0" max="2" />
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48"/>
       <message header="missionheader0.huntinggrounds1" text="missionmessage0.huntinggrounds1"/>
@@ -564,7 +566,6 @@
 		  achievementidentifier="cargomission">
       <Items>
         <Item identifier="securemetalcrate" reward="200" maxcount="80">
-          <Item identifier="smg" amount="1"/>
           <Item identifier="smgmagazine" amount="1"/>
           <Item identifier="fraggrenade" amount="1"/>
         </Item>
@@ -601,16 +602,18 @@
 		  tags="cargo,cargoresearch"
 		  type="Cargo"
 		  difficulty="2"
-		  commonness="20"
+		  commonness="50"
 		  reward="200"
 		  achievementidentifier="cargomission">
       <Items>
-        <Item identifier="chemicalcrate" reward="200" maxcount="40">
+        <Item identifier="chemicalcrate" reward="500" maxcount="8">
           <Item identifier="huskeggsbasic" amount="1"/>
         </Item>
       </Items>
-      <Reputation identifier="huskcult" amount="10" />
-      <Reputation identifier="clowns" amount="-20" />
+      <Reputation identifier="huskcult" amount="20" />
+      <Reputation identifier="clowns" amount="-5" />
+      <Reputation identifier="separatists" amount="-5" />
+      <Reputation identifier="coalition" amount="-5" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,256,256,256" color="243,146,55"/>
       <LocationType from="AnyOutpost" to="AnyOutpost" />
     </CargoMission>
@@ -636,10 +639,10 @@
 
     <CargoMission
 		  identifier="cargoclowngear"
-		  tags="cargoclown"
+		  tags="cargo,cargoclown"
 		  type="Cargo"
 		  difficulty="2"
-		  commonness="20"
+		  commonness="100"
 		  reward="200"
 		  achievementidentifier="cargomission"
 		  requireddeliveryamount="0.98">
@@ -650,8 +653,10 @@
           <Item identifier="bikehorn" amount="1"/>
         </Item>
       </Items>
-      <Reputation identifier="clowns" amount="10" />
-      <Reputation identifier="huskcult" amount="-20" />
+      <Reputation identifier="clowns" amount="20" />
+      <Reputation identifier="huskcult" amount="-5" />
+      <Reputation identifier="separatists" amount="-10" />
+      <Reputation identifier="coalition" amount="-10" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,256,256,256" color="243,146,55"/>
       <LocationType from="AnyOutpost" to="AnyOutpost" />
     </CargoMission>
