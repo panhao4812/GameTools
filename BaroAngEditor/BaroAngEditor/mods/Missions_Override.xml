@@ -809,9 +809,9 @@
 		  tags="abandonedoutpost"
 		  achievementidentifier="abandonedoutpostdestroyhumans"
 		  type="OutpostDestroy"
-		  reward="3000"
+		  reward="2000"
 		  difficulty="3"
-		  commonness="30"
+		  commonness="10"
 		  allowretry="true"
 		  targetitem="reactor"
 		  unhideentitysubcategories="abandonedhuman">
@@ -831,9 +831,9 @@
 		  tags="abandonedoutpost"
 		  type="AbandonedOutpost"
 		  achievementidentifier="abandonedoutpostrescue"
-		  reward="9000"
+		  reward="15000"
 		  difficulty="5"
-		  commonness="30"
+		  commonness="50"
 		  allowretry="true"
 		  hostageskilledmessage="hostageskilled"
 		  unhideentitysubcategories="abandonedhuman">
@@ -844,7 +844,9 @@
         <Character identifier="bandit2" from="abandonedoutpostnpcs2" moduleflags="crewmodule" min="8" max="12"/>
         <Character identifier="bandit2" from="abandonedoutpostnpcs2" moduleflags="crewmodule" min="8" max="12" multiplayeronly="true"/>
         <Character identifier="banditleader2" from="abandonedoutpostnpcs2" spawnpointtags="banditleader"/>
+        <Character identifier="banditleader2" from="abandonedoutpostnpcs2" spawnpointtags="banditleader"/>
         <Character identifier="banditleader_heavy2" from="abandonedoutpostnpcs2" spawnpointtags="banditleader"/>
+        <Character identifier="hostage" from="abandonedoutpostnpcs" asfaraspossible="true" requirerescue="true"/>
         <Character identifier="hostage" from="abandonedoutpostnpcs" asfaraspossible="true" requirerescue="true"/>
         <Character identifier="hostage" from="abandonedoutpostnpcs" asfaraspossible="true" requirerescue="true"/>
         <Character identifier="hostage" from="abandonedoutpostnpcs" asfaraspossible="true" requirerescue="true" multiplayeronly="true"/>
@@ -858,7 +860,7 @@
 		  tags="abandonedoutpost"
 		  achievementidentifier="abandonedoutpostdestroymonsters"
 		  type="OutpostDestroy"
-		  reward="3000"
+		  reward="2000"
 		  difficulty="3"
 		  commonness="30"
 		  allowretry="true"
@@ -868,19 +870,29 @@
       <LocationType identifier="Abandoned" />
       <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
       <Characters>
-        <Character identifier="mudraptor" min="8" max="15"/>
-        <Character identifier="mudraptor" min="8" max="15" multiplayeronly="true"/>
+        <Character identifier="mudraptor_unarmored" min="10" max="12"/>
+        <Character identifier="mudraptor" min="10" max="12"/>
+        <Character identifier="mudraptor" min="8" max="12" multiplayeronly="true"/>
       </Characters>
       <Items>
         <Item identifier="largemudraptoregg" spawnpointtags="nest">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="2" />
         </Item>
         <Item identifier="largemudraptoregg" spawnpointtags="nest">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="9" />
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="4" />
         </Item>
-        <Item identifier="largemudraptoregg" spawnpointtags="nest" />
-        <Item identifier="largemudraptoregg" spawnpointtags="nest" />
-        <Item identifier="largemudraptoregg" spawnpointtags="nest" />
+        <Item identifier="largemudraptoregg" spawnpointtags="nest">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="6" />
+        </Item>
+        <Item identifier="largemudraptoregg" spawnpointtags="nest">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="8" />
+        </Item>
+        <Item identifier="largemudraptoregg" spawnpointtags="nest">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="10" />
+        </Item>
+        <Item identifier="largemudraptoregg" spawnpointtags="nest">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="12" />
+        </Item>
         <Item identifier="largemudraptoregg" spawnpointtags="nest" />
       </Items>
       <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true"/>
@@ -903,18 +915,28 @@
       <LocationType identifier="Abandoned" />
       <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
       <Characters>
-        <Character identifier="crawler" min="12" max="15"/>
+        <Character identifier="Crawler" min="10" max="12"/>
+        <Character identifier="Crawler_large" min="10" max="12"/>
       </Characters>
       <Items>
         <Item identifier="crawleregg" spawnpointtags="nest">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="2" />
         </Item>
         <Item identifier="crawleregg" spawnpointtags="nest">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="9" />
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="4" />
         </Item>
-        <Item identifier="crawleregg" spawnpointtags="nest" />
-        <Item identifier="crawleregg" spawnpointtags="nest" />
-        <Item identifier="crawleregg" spawnpointtags="nest" />
+        <Item identifier="crawleregg" spawnpointtags="nest">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="6" />
+        </Item>
+        <Item identifier="crawleregg" spawnpointtags="nest">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="8" />
+        </Item>
+        <Item identifier="crawleregg" spawnpointtags="nest">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="10" />
+        </Item>
+        <Item identifier="crawleregg" spawnpointtags="nest">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="12" />
+        </Item>
         <Item identifier="crawleregg" spawnpointtags="nest" />
       </Items>
       <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true"/>
@@ -926,9 +948,9 @@
 		  tags="abandonedoutpost"
 		  achievementidentifier="abandonedoutpostassassinate"
 		  type="OutpostDestroy"
-		  reward="4000"
+		  reward="2000"
 		  difficulty="4"
-		  commonness="30"
+		  commonness="10"
 		  allowretry="true"
 		  sonarlabel="target"
 		  unhideentitysubcategories="abandonedhuman">
@@ -949,7 +971,7 @@
 		  tags="abandonedoutpost"
 		  achievementidentifier="abandonedoutpostdestroymonsters"
 		  type="OutpostDestroy"
-		  reward="4000"
+		  reward="2000"
 		  difficulty="4"
 		  commonness="30"
 		  allowretry="true"
@@ -988,30 +1010,34 @@
 		  reward="9000"
 		  itemspawnradius="200"
 		  approachitemsradius="800"
-		  monsterspawnradius="4000"
+		  monsterspawnradius="10000"
 		  nestobjectradius="1500"
 		  nestobjectamount="20"
 		  difficulty="5"
 		  commonness="10">
       <Items>
         <Item identifier="crawleregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="2"/>
         </Item>
         <Item identifier="crawleregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="5" />
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="4" />
         </Item>
         <Item identifier="crawleregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="11" />
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="6" />
         </Item>
         <Item identifier="crawleregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="17" />
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="8" />
         </Item>
-        <Item identifier="crawleregg" />
-        <Item identifier="crawleregg" />
+        <Item identifier="crawleregg">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="10" />
+        </Item>
+        <Item identifier="crawleregg">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="12" />
+        </Item>
         <Item identifier="crawleregg" />
       </Items>
-      <Monster character="Crawler" min="12" max="15"/>
-      <Monster character="Crawler" min="12" max="15" multiplayeronly="true"/>
+      <Monster character="Crawler" min="8" max="10"/>
+      <Monster character="Crawler_large" min="4" max="6" multiplayeronly="true"/>
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="256,256,256,256" color="214,50,48"/>
       <LocationType from="City" to="Research"/>
@@ -1036,25 +1062,37 @@
 		  achievementidentifier="nestmission"
 		  type="Nest"
 		  spawntype="cave"
-		  reward="9000"
+		  reward="9500"
 		  itemspawnradius="200"
 		  approachitemsradius="800"
-		  monsterspawnradius="4000"
+		  monsterspawnradius="10000"
 		  nestobjectradius="1500"
 		  nestobjectamount="20"
 		  difficulty="5"
 		  commonness="10">
       <Items>
         <Item identifier="largemudraptoregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="2" />
         </Item>
         <Item identifier="largemudraptoregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="9" />
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="4" />
+        </Item>
+        <Item identifier="largemudraptoregg">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="6" />
+        </Item>
+        <Item identifier="largemudraptoregg">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="8" />
+        </Item>
+        <Item identifier="largemudraptoregg">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="10" />
+        </Item>
+        <Item identifier="largemudraptoregg">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="12" />
         </Item>
         <Item identifier="largemudraptoregg" />
-        <Item identifier="largemudraptoregg" />
       </Items>
-      <Monster character="mudraptor_unarmored" min="8" max="15"/>
+      <Monster character="mudraptor_unarmored" min="8" max="10"/>
+      <Monster character="mudraptor" min="4" max="6"/>
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="256,256,256,256" color="214,50,48"/>
       <LocationType from="City" to="Research"/>
@@ -1079,32 +1117,37 @@
 		  achievementidentifier="nestmission"
 		  type="Nest"
 		  spawntype="cave"
-		  reward="9000"
+		  reward="9500"
 		  itemspawnradius="200"
 		  approachitemsradius="800"
-		  monsterspawnradius="4000"
+		  monsterspawnradius="10000"
 		  nestobjectradius="1500"
 		  nestobjectamount="20"
 		  difficulty="5"
 		  commonness="10">
       <Items>
         <Item identifier="tigerthresheregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true"/>
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="2"/>
+        </Item>
+        <Item identifier="tigerthresheregg">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="4" />
+        </Item>
+        <Item identifier="tigerthresheregg">
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="6" />
         </Item>
         <Item identifier="tigerthresheregg">
           <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="8" />
         </Item>
         <Item identifier="tigerthresheregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="11" />
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="10" />
         </Item>
         <Item identifier="tigerthresheregg">
-          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="15" />
+          <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="12" />
         </Item>
         <Item identifier="tigerthresheregg" />
-        <Item identifier="tigerthresheregg" />
-        <Item identifier="tigerthresheregg" />
       </Items>
-      <Monster character="tigerthresher" min="8" max="15"/>
+      <Monster character="tigerthresher" min="8" max="12"/>
+      <Monster character="bonethresher" min="2" max="4"/>
       <Reputation identifier="location" amount="5" />
       <Icon texture="Content/UI/MissionIcons.png" sourcerect="256,256,256,256" color="214,50,48"/>
       <LocationType from="City" to="Research"/>
