@@ -1,6 +1,0 @@
-<Charactervariant inherit="Moloch" speciesname="Molochgiant" speciestranslationoverride="Moloch" usebosshealthbar="true">
-  <health vitality="5200"/>
-  <ragdoll scalemultiplier="1.5"/>
-  <attack damagemultiplier="1.5" rangemultiplier="1.5" impactmultiplier="1.5"/>
-  <ai combatstrength="2000" sight="0.1" hearing="3"/>
-</Charactervariant>

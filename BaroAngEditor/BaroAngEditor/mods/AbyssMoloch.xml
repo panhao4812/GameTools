@@ -1,0 +1,15 @@
+<Charactervariant inherit="Molochblack" speciesname="AbyssMoloch" speciestranslationoverride="Molochblack" usebosshealthbar="true">
+  <health vitality="4000" poisonvulnerability="0.25"/>
+  <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="100">
+    <Item identifier="molochbone" />
+    <Item identifier="physicorium" amount="5"  />
+    <Item identifier="fulgurium" amount="3"  />
+  </Inventory>
+  <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="100">
+    <Item identifier="physicorium" amount="5"  />
+    <Item identifier="fulgurium" amount="4"  />
+  </Inventory>
+  <ragdoll scalemultiplier="1.7"/>
+  <attack damagemultiplier="3" rangemultiplier="1.7" impactmultiplier="3"/>
+  <ai combatstrength="5500" sight="1" hearing="5"/>
+</Charactervariant>

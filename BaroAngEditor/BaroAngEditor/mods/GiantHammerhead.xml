@@ -1,0 +1,14 @@
+<Charactervariant inherit="Hammerheadgold" speciesname="GiantHammerhead" speciestranslationoverride="Hammerheadgold" usebosshealthbar="true">
+  <health vitality="1000" poisonvulnerability="0.5"/>
+  <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="100">
+    <Item identifier="alienblood" amount="3"/>
+    <Item identifier="hammerheadribs" />
+  </Inventory>
+  <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="100">
+    <Item identifier="alienblood" amount="3"/>
+    <Item identifier="diversremains" />
+  </Inventory>
+  <ragdoll scalemultiplier="1.5"/>
+  <attack damagemultiplier="3" rangemultiplier="1.5" impactmultiplier="1.5"/>
+  <ai combatstrength="2000" sight="6" hearing="3"/>
+</Charactervariant>

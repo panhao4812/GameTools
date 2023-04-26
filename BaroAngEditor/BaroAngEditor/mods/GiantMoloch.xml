@@ -1,0 +1,14 @@
+<Charactervariant inherit="Moloch" speciesname="GiantMoloch" speciestranslationoverride="Moloch" usebosshealthbar="true">
+  <health vitality="3200" poisonvulnerability="0.25"/>
+  <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="100">
+    <Item identifier="molochbone" />
+    <Item identifier="physicorium" amount="3"  />   
+  </Inventory>
+  <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="100">
+    <Item identifier="physicorium" amount="3"  />
+    <Item identifier="scrap" amount="2"  />
+  </Inventory>
+  <ragdoll scalemultiplier="1.5"/>
+  <attack damagemultiplier="2" rangemultiplier="1.5" impactmultiplier="2"/>
+  <ai combatstrength="4000" sight="0.5" hearing="3"/>
+</Charactervariant>

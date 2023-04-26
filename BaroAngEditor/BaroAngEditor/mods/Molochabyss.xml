@@ -1,6 +1,0 @@
-<Charactervariant inherit="Molochblack" speciesname="Molochabyss" speciestranslationoverride="Molochblack" usebosshealthbar="true">
-  <health vitality="2200"/>
-  <ragdoll scalemultiplier="1.8"/>
-  <attack damagemultiplier="1.8" rangemultiplier="1.8" impactmultiplier="1.8"/>
-  <ai combatstrength="4500" sight="1" hearing="5"/>
-</Charactervariant>
