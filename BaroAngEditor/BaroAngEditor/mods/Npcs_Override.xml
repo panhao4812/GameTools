@@ -1558,22 +1558,22 @@
       </npc>
 
       <npc identifier="ignatiusmay" faction="coalition" moduleflags="none" behavior="Passive">
-        <Character speciesname="human" tags="female,head8" experiencepoints="6000" additionaltalentpoints="0" hairindex="7" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="244,190,152,255" haircolor="210,163,111,255" facialhaircolor="210,163,111,255" startitemsgiven="false" ragdoll="" personality="professional" missionscompletedsincedeath="0">
-          <job identifier="captain">
-            <skill identifier="weapons" level="50" />
-            <skill identifier="mechanical" level="50" />
-            <skill identifier="electrical" level="50" />
-            <skill identifier="medical" level="100" />
-            <skill identifier="helm" level="100" />
+        <Character speciesname="human" tags="head4,male" experiencepoints="6000" additionaltalentpoints="0" hairindex="3" beardindex="12" moustacheindex="0" faceattachmentindex="0" skincolor="244,190,152,255" haircolor="210,163,111,255" facialhaircolor="210,163,111,255" startitemsgiven="false" ragdoll="" personality="professional" missionscompletedsincedeath="0">
+          <job identifier="securityofficer">
+            <skill identifier="weapons" level="100" />
+            <skill identifier="mechanical" level="100" />
+            <skill identifier="electrical" level="75" />
+            <skill identifier="medical" level="50" />
+            <skill identifier="helm" level="10" />
           </job>
           <talents>
-            <talent identifier="pacificationkit"/>
-            <talent identifier="extrapowder"/>
-            <talent identifier="nopressure"/>
-            <talent identifier="logisticssystems"/>
-            <talent identifier="blackmarketgenes"/>
-            <talent identifier="labcontacts"/>
-            <talent identifier="melodicrespite"/>
+            <talent identifier="commendations"/>
+            <talent identifier="affiliation"/>
+            <talent identifier="yourreputation"/>
+            <talent identifier="campaigning"/>
+            <talent identifier="figurehead"/>
+            <talent identifier="leadingbyexample"/>
+            <talent identifier="inspiringpresence"/>
           </talents>
         </Character>
         <ItemSet commonness="1">
@@ -1591,22 +1591,22 @@
       </npc>
 
       <npc identifier="auntdoris" faction="coalition" moduleflags="none" behavior="Passive">
-        <Character speciesname="human" tags="female,head12" experiencepoints="6000" additionaltalentpoints="0" hairindex="10" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="222,215,204,255" facialhaircolor="187,169,129,255" startitemsgiven="false" ragdoll="" personality="professional" missionscompletedsincedeath="0">
+        <Character speciesname="human" tags="female,head13" experiencepoints="6000" additionaltalentpoints="0" hairindex="12" beardindex="0" moustacheindex="0" faceattachmentindex="9" skincolor="243,198,150,255" haircolor="222,215,204,255" facialhaircolor="187,169,129,255" startitemsgiven="false" ragdoll="" personality="fearful" missionscompletedsincedeath="0">
           <job identifier="medicaldoctor">
-            <skill identifier="medical" level="105" />
-            <skill identifier="helm" level="45" />
+            <skill identifier="medical" level="100" />
+            <skill identifier="helm" level="50" />
             <skill identifier="weapons" level="50" />
             <skill identifier="mechanical" level="50" />
             <skill identifier="electrical" level="50" />
           </job>
           <talents>
+            <talent identifier="slayer"/>
+            <talent identifier="buff"/>
             <talent identifier="firstaidtraining"/>
-            <talent identifier="veteran"/>
-            <talent identifier="sailorwithnoname"/>
-            <talent identifier="warstories"/>
-            <talent identifier="bootcamp"/>
-            <talent identifier="commendations"/>
-            <talent identifier="figurehead"/>
+            <talent identifier="mudraptorwrestler"/>
+            <talent identifier="heavylifting"/>
+            <talent identifier="nonthreatening"/>
+            <talent identifier="inspiringpresence"/>
           </talents>
         </Character>
         <ItemSet commonness="1">
@@ -1627,22 +1627,22 @@
       </npc>
 
       <npc identifier="victoriapetran" faction="separatists" moduleflags="none" behavior="Passive">
-        <Character speciesname="human" tags="female,head11" salary="14076" experiencepoints="5000" additionaltalentpoints="0" hairindex="16" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="200,165,131,255" haircolor="71,54,55,255" facialhaircolor="106,59,55,255" startitemsgiven="false" ragdoll="" personality="tough" missionscompletedsincedeath="0">
+        <Character speciesname="human" tags="female,head14" salary="4076" experiencepoints="5000" additionaltalentpoints="0" hairindex="7" beardindex="0" moustacheindex="0" faceattachmentindex="10" skincolor="200,165,131,255" haircolor="71,54,55,255" facialhaircolor="106,59,55,255" startitemsgiven="false" ragdoll="" personality="tough" missionscompletedsincedeath="0">
           <job identifier="securityofficer">
             <skill identifier="weapons" level="100" />
-            <skill identifier="mechanical" level="50" />
-            <skill identifier="electrical" level="50" />
+            <skill identifier="mechanical" level="100" />
+            <skill identifier="electrical" level="75" />
             <skill identifier="medical" level="50" />
-            <skill identifier="helm" level="50" />
+            <skill identifier="helm" level="10" />
           </job>
           <talents>
+            <talent identifier="commendations"/>
+            <talent identifier="yourreputation"/>
+            <talent identifier="inspiringpresence"/>
+            <talent identifier="campaigning"/>
+            <talent identifier="figurehead"/>
             <talent identifier="quickdraw"/>
-            <talent identifier="inordinateexsanguination"/>
             <talent identifier="bigguns"/>
-            <talent identifier="selfcare"/>
-            <talent identifier="foolhardy"/>
-            <talent identifier="berserker"/>
-            <talent identifier="daringdolphin"/>
           </talents>
         </Character>
         <ItemSet commonness="1">
@@ -1656,24 +1656,23 @@
           </Item>
         </ItemSet>
       </npc>
-      
       <npc identifier="sootman" faction="separatists" moduleflags="none" behavior="Passive">
-        <Character speciesname="human" tags="female,head16" experiencepoints="7500" additionaltalentpoints="0" hairindex="5" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="38,25,14,255" haircolor="52,48,48,255" facialhaircolor="52,48,48,255" ragdoll="" personality="rude">
+        <Character speciesname="human" experiencepoints="7500" additionaltalentpoints="0" hairindex="2" beardindex="1" moustacheindex="0" faceattachmentindex="4" skincolor="38,25,14,255" haircolor="52,48,48,255" facialhaircolor="52,48,48,255" ragdoll="" personality="rude">
           <job identifier="mechanic">
-            <skill identifier="weapons" level="65" />
+            <skill identifier="weapons" level="100" />
             <skill identifier="mechanical" level="100" />
             <skill identifier="electrical" level="75" />
             <skill identifier="medical" level="50" />
-            <skill identifier="helm" level="50" />
+            <skill identifier="helm" level="10" />
           </job>
           <talents>
             <talent identifier="pyromaniac"/>
-            <talent identifier="macrodosing"/>
-            <talent identifier="armsrace"/>
-            <talent identifier="whatastench"/>
-            <talent identifier="drunkensailor"/>
             <talent identifier="extrapowder"/>
-            <talent identifier="dontpushit"/>
+            <talent identifier="inspiringpresence"/>
+            <talent identifier="lonewolf"/>
+            <talent identifier="militaryapplications"/>
+            <talent identifier="armsrace"/>
+            <talent identifier="nuclearoption"/>
           </talents>
         </Character>
         <ItemSet commonness="1">
@@ -1691,22 +1690,23 @@
       </npc>
 
       <npc identifier="jestmaster" faction="clowns" moduleflags="none" behavior="Passive">
-        <Character speciesname="human" tags="female，head15" experiencepoints="10000" additionaltalentpoints="0" beardindex="0" hairindex="3" moustacheindex="0" faceattachmentindex="0" skincolor="165,124,83,255" haircolor="70,140,92,255" facialhaircolor="216,186,133,255" startitemsgiven="false" ragdoll="" personality="joker" missionscompletedsincedeath="0">
-          <job identifier="assistant">
-            <skill identifier="medical" level="50" />
-            <skill identifier="mechanical" level="80" />
-            <skill identifier="electrical" level="80" />
+        <Character speciesname="human" tags="head6,male" experiencepoints="10000" additionaltalentpoints="0" beardindex="13" hairindex="15" moustacheindex="0" faceattachmentindex="0" skincolor="165,124,83,255" haircolor="70,140,92,255" facialhaircolor="216,186,133,255" startitemsgiven="false" ragdoll="" personality="joker" missionscompletedsincedeath="0">
+          <job identifier="medicaldoctor">
+            <skill identifier="medical" level="150" />
+            <skill identifier="mechanical" level="150" />
+            <skill identifier="electrical" level="150" />
             <skill identifier="helm" level="50" />
             <skill identifier="weapons" level="50" />
           </job>
           <talents>
-            <talent identifier="daringdolphin"/>
-            <talent identifier="miner"/>
-            <talent identifier="physicalconditioning"/>
-            <talent identifier="heavylifting"/>
-            <talent identifier="massproduction"/>
-            <talent identifier="residualwaste"/>
-            <talent identifier="physicalconditioning"/>
+            <talent identifier="enrollintoclowncollege"/>
+            <talent identifier="waterprankster"/>
+            <talent identifier="chonkyhonks"/>
+            <talent identifier="psychoclown"/>
+            <talent identifier="truepotential"/>
+            <talent identifier="inspirationalleader"/>
+            <talent identifier="inspiringpresence"/>
+            <talent identifier="steadytune"/>
           </talents>
         </Character>
         <ItemSet commonness="1">
