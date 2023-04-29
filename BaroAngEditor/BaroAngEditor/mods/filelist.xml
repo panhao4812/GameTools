@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Pirate of Coalition" modversion="1.0.12" corepackage="False" steamworkshopid="2948446664" gameversion="1.0.9.0">
+<contentpackage name="Pirate of Coalition" modversion="1.0.12" corepackage="False" steamworkshopid="2948446664" gameversion="1.0.8.0">
   <MapGenerationParameters file="%ModDir%/MapGenerationParameters_Override.xml" />
   <NPCSets file="%ModDir%/Npcs_Override.xml" />
   <NPCSets file="%ModDir%/Npcs_Custom.xml" />
