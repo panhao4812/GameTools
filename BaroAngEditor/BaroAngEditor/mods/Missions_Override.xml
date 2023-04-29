@@ -15,7 +15,7 @@
     </MonsterMission>
 
     <MonsterMission
-      identifier="killhammerhead1"
+      identifier="killhammerhead_basic"
       textidentifier="killhammerhead"
       tags="killmonster,killmonster_set1"
       type="Monster"
@@ -30,7 +30,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killhammerhead2"
+		  identifier="killhammerhead"
       textidentifier="killhammerhead"
 		  tags="killmonster,killmonster_set2"
 		  type="Monster"
@@ -45,7 +45,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killhammerhead3"
+		  identifier="killhammerhead2"
 		  textidentifier="killmatriarch1"
 		  tags="killmonster,killmonster_set3"
 		  type="Monster"
@@ -94,7 +94,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killmoloch1"
+		  identifier="killmoloch"
       textidentifier="killmoloch"
 		  tags="killmonster,killmonster_set1"
 		  type="Monster"
@@ -109,7 +109,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killmoloch2"
+		  identifier="killmolochblack"
       textidentifier="killmoloch"
 		  tags="killmonster,killmonster_set2"
 		  type="Monster"
@@ -125,7 +125,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killmoloch3"
+		  identifier="killmatriarch1"
       textidentifier="killmoloch"
 		  tags="killmonster,killmonster_set3"
 		  type="Monster"
@@ -141,7 +141,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killmoloch4"
+		  identifier="killmatriarch2"
       textidentifier="killmoloch"
 		  tags="killmonster,killmonster_set4"
 		  type="Monster"
@@ -209,7 +209,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killgiantspineling3"
+		  identifier="killspinelingswarm1"
 		  textidentifier="killspinelingswarm1"
 		  tags="killmonster,killswarm,killswarm_set3"
 		  type="Monster"
@@ -307,7 +307,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killcrawler1"
+		  identifier="killlargecrawler"
       textidentifier="killlargecrawler"
 		  tags="killmonster,killmonster_set1"
 		  type="Monster"
@@ -322,20 +322,51 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killcrawler2"
+		  identifier="killcrawlerbroodmother1"
       textidentifier="killcrawlerbroodmother1"
 		  tags="killmonster,killmonster_set2"
 		  type="Monster"
 		  difficulty="2"
 		  commonness="100"
-		  reward="2500"
+		  reward="2000"
 		  maxsonarmarkerdistance="10000">
-      <monster character="crawlerbroodmother_m" min="1" max="3"/>
+      <monster character="crawlerbroodmother_m" min="1" max="2"/>
       <Reputation identifier="location" amount="2" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killcrawlerbroodmother1" text="missionmessage0.killcrawlerbroodmother1"/>
     </MonsterMission>
 
+    <MonsterMission
+		  identifier="killcrawlerbroodmother2"
+      textidentifier="killcrawlerbroodmother1"
+		  tags="killmonster,killmonster_set3"
+		  type="Monster"
+		  difficulty="3"
+		  commonness="100"
+		  reward="3000"
+		  maxsonarmarkerdistance="10000">
+      <monster character="crawlerbroodmother_m" min="3" max="5"/>
+      <Reputation identifier="location" amount="3" />
+      <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
+      <message header="missionheader0.killcrawlerbroodmother1" text="missionmessage0.killcrawlerbroodmother1"/>
+    </MonsterMission>
+
+    <MonsterMission
+		  identifier="killcrawlerbroodmother3"
+      textidentifier="killcrawlerbroodmother1"
+		  tags="killmonster,killmonster_set4"
+		  type="Monster"
+		  difficulty="4"
+		  commonness="100"
+		  reward="4000"
+		  maxsonarmarkerdistance="10000">
+      <monster character="watcher" min="1" max="1" />
+      <monster character="crawlerbroodmother_m" min="6" max="7"/>
+      <Reputation identifier="location" amount="4" />
+      <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
+      <message header="missionheader0.killcrawlerbroodmother1" text="missionmessage0.killcrawlerbroodmother1"/>
+    </MonsterMission>
+    
     <MonsterMission
 		  identifier="killcrawlerswarm1"
       textidentifier="killcrawlerswarm1"
@@ -350,9 +381,24 @@
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
       <message header="missionheader0.killcrawlerswarm1" text="missionmessage0.killcrawlerswarm1"/>
     </MonsterMission>
-
+    
     <MonsterMission
 		  identifier="killcrawlerswarm2"
+      textidentifier="killcrawlerswarm2"
+		  tags="killmonster,killswarm,killswarm_set2"
+		  type="Monster"
+		  difficulty="2"
+		  commonness="100"
+		  reward="2000"
+		  maxsonarmarkerdistance="10000">
+      <monster character="Crawler_large" min="8" max="10"/>
+      <Reputation identifier="location" amount="2" />
+      <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
+      <message header="missionheader0.killcrawlerswarm2" text="missionmessage0.killcrawlerswarm2"/>
+    </MonsterMission>
+    
+    <MonsterMission
+		  identifier="killcrawlerswarm2b"
       textidentifier="killcrawlerswarm2"
 		  tags="killmonster,killswarm,killswarm_set2"
 		  type="Monster"
@@ -367,7 +413,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killcrawlerswarm3"
+		  identifier="killcrawlerswarm1large"
       textidentifier="killcrawlerswarm1large"
 		  tags="killmonster,killswarm,killswarm_set3"
 		  type="Monster"
@@ -383,7 +429,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killcrawlerswarm4"
+		  identifier="killcrawlerswarm1huge"
       textidentifier="killcrawlerswarm1huge"
 		  tags="killmonster,killswarm,killswarm_set4"
 		  type="Monster"
@@ -399,7 +445,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killmudraptors1"
+		  identifier="killmudraptors_basic"
 		  textidentifier="killmudraptors1"
 		  tags="killmonster,killswarm,killswarm_set1"
 		  type="Monster"
@@ -414,7 +460,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killmudraptors2"
+		  identifier="killmudraptors1"
       textidentifier="killmudraptors1"
 		  tags="killmonster,killswarm,killswarm_set2"
 		  type="Monster"
@@ -431,7 +477,7 @@
     </MonsterMission>
 
     <MonsterMission
-		  identifier="killmudraptors3"
+		  identifier="killmudraptors2"
 		  textidentifier="killmudraptors1"
 		  tags="killmonster,killswarm,killswarm_set3"
 		  type="Monster"
@@ -1166,6 +1212,76 @@
       <message text="missionmessage0.tigerthreshernest"/>
     </NestMission>
 
+    <EscortMission
+      identifier="escort4"
+      tags="escortterrorists,escortterroristscoalition,escort"
+      type="Escort"
+      difficulty="5"
+      commonness="100"
+      reward="9000"
+      achievementidentifier="escortmission"
+      baseescortedcharacters="1"
+      scalingescortedcharacters="0.7"
+      terroristchance="0.7"
+      terroristannouncedialogtag="dialogterroristannounce">
+      <Characters>
+        <Character from="customnpcs2" identifier="commoner2" />
+      </Characters>
+      <TerroristItems>
+        <Item identifier="harpoongun" equip="true" mindifficulty="1">
+          <Item identifier="explosivespear" amount="6"/>
+        </Item>
+        <Item identifier="handcannon" equip="false" mindifficulty="1">
+          <Item identifier="handcannonround" amount="6"/>
+        </Item>
+        <Item identifier="shotgun" equip="true" mindifficulty="1">
+          <Item identifier="shotgunslugexplosive" amount="6"/>
+        </Item>
+        <Item identifier="boardingaxe" equip="true" mindifficulty="1"/>
+      </TerroristItems>
+      <Reputation identifier="coalition" amount="5" />
+      <Reputation identifier="separatists" amount="-5" />
+      <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,0,256,256" color="243,146,55" />
+      <LocationType from="AnyOutpost" to="AnyOutpost" />
+      <message header="missionheader0.escort4" text="missionmessage0.escort4"/>
+      <message header="missionheader1.escort4" text="missionmessage1.escort4"/>
+    </EscortMission>
+
+    <EscortMission
+      identifier="escort4separatists"
+      tags="escortterrorists,escortterroristsseparatists,escort"
+      type="Escort"
+      difficulty="5"
+      commonness="100"
+      reward="9000"
+      achievementidentifier="escortmission"
+      baseescortedcharacters="1"
+      scalingescortedcharacters="0.7"
+      terroristchance="0.7"
+      terroristannouncedialogtag="dialogundercoverannounce">
+      <Characters>
+        <Character from="customnpcs2" identifier="commoner2" />
+      </Characters>
+      <TerroristItems>
+        <Item identifier="harpoongun" equip="true" mindifficulty="1">
+          <Item identifier="explosivespear" amount="6"/>
+        </Item>
+        <Item identifier="handcannon" equip="false" mindifficulty="1">
+          <Item identifier="handcannonround" amount="6"/>
+        </Item>
+        <Item identifier="shotgun" equip="true" mindifficulty="1">
+          <Item identifier="shotgunslugexplosive" amount="6"/>
+        </Item>
+        <Item identifier="boardingaxe" equip="true" mindifficulty="1"/>
+      </TerroristItems>
+      <Reputation identifier="separatists" amount="5" />
+      <Reputation identifier="coalition" amount="-5" />
+      <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,0,256,256" color="243,146,55" />
+      <LocationType from="AnyOutpost" to="AnyOutpost" />
+      <message header="missionheader0.escort4" text="missionmessage0.escort4"/>
+      <message header="missionheader1.escort4separatists" text="missionmessage1.escort4separatists"/>
+    </EscortMission>    
+    
     <PirateMission
 	   type="Pirate"
 	   identifier="pirate1"
