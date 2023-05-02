@@ -442,9 +442,6 @@
           <Item identifier="oxygentank" />
         </Item>
         <Item identifier="boardingaxe" equip="false"/>
-        <Item identifier="syringegun" equip="true">
-          <Item identifier="morbusine"/>
-        </Item>
       </ItemSet>
       <ItemSet>
         <Item identifier="commonerclothes2" equip="true" />
@@ -455,10 +452,9 @@
         <Item identifier="divingmask">
           <Item identifier="oxygentank" />
         </Item>
-        <Item identifier="harpoongun" equip="true">
+        <Item identifier="harpoongun" equip="false">
           <Item identifier="explosivespear" amount="6"/>
         </Item>
-        <Item identifier="explosivespear" amount="6"/>
       </ItemSet>
       <ItemSet>
         <Item identifier="commonerclothes3" equip="true" />
@@ -467,11 +463,7 @@
         <Item identifier="divingmask">
           <Item identifier="oxygentank" />
         </Item>
-        <Item identifier="handcannon" equip="false">
-          <Item identifier="handcannonround" amount="6"/>
-        </Item>
-        <Item identifier="handcannonround" amount="6"/>
-        <Item identifier="handcannonround" amount="6"/>
+        <Item identifier="boardingaxe" equip="false"/>
       </ItemSet>
       <ItemSet>
         <Item identifier="commonerclothes4" equip="true" />
@@ -480,11 +472,7 @@
         <Item identifier="divingmask">
           <Item identifier="oxygentank" />
         </Item>
-        <Item identifier="shotgun" equip="true">
-          <Item identifier="shotgunslugexplosive" amount="6"/>
-        </Item>
-        <Item identifier="shotgunslugexplosive" amount="6"/>
-        <Item identifier="shotgunslugexplosive" amount="6"/>
+        <Item identifier="boardingaxe" equip="false"/>
       </ItemSet>
     </npc>
   </npcset>

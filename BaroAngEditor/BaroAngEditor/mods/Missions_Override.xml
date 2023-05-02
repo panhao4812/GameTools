@@ -594,19 +594,19 @@
 		  identifier="cargocompoundn"
 		  tags="cargoseparatists,cargoexplosiveseparatists"
 		  type="Cargo"
-		  difficulty="3"
-		  commonness="10"
+		  difficulty="5"
+		  commonness="2500"
 		  achievementidentifier="cargomission">
       <Items>
-        <Item identifier="explosivecrate" reward="200" maxcount="60">
+        <Item identifier="explosivecrate" reward="200" maxcount="80">
           <Item identifier="compoundn" amount="1"/>
           <Item identifier="detonator" amount="1">
             <Item identifier="compoundn"/>
           </Item>
         </Item>
       </Items>
-      <Reputation identifier="separatists" amount="3" />
-      <Reputation identifier="coalition" amount="-30" />
+      <Reputation identifier="separatists" amount="5" />
+      <Reputation identifier="coalition" amount="-50" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,256,256,256" color="243,146,55"/>
       <LocationType from="AnyOutpost" to="AnyOutpost" />
     </CargoMission>
@@ -615,8 +615,8 @@
 		  identifier="cargoweaponscoalition"
 		  tags="cargocoalition,cargoweaponscoalition"
 		  type="Cargo"
-		  difficulty="4"
-		  commonness="10"
+		  difficulty="5"
+		  commonness="2500"
 		  achievementidentifier="cargomission">
       <Items>
         <Item identifier="securemetalcrate" reward="200" maxcount="80">
@@ -624,80 +624,80 @@
           <Item identifier="fraggrenade" amount="1"/>
         </Item>
       </Items>
-      <Reputation identifier="coalition" amount="3" />
-      <Reputation identifier="separatists" amount="-40" />
+      <Reputation identifier="coalition" amount="5" />
+      <Reputation identifier="separatists" amount="-50" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,256,256,256" color="243,146,55"/>
       <LocationType from="AnyOutpost" to="AnyOutpost" />
     </CargoMission>
 
     <CargoMission
 		  identifier="cargochemicals"
-		  tags="cargo,cargoresearch"
+		  tags="cargo,cargoresearch,cargoexplosiveseparatists,cargoweaponscoalition"
 		  type="Cargo"
-		  difficulty="1"
-		  commonness="50"
+		  difficulty="4"
+		  commonness="100"
 		  reward="100"
 		  achievementidentifier="cargomission"
 		  requireddeliveryamount="0.98">
       <Items>
-        <Item identifier="metalcrate" reward="200" maxcount="24">
+        <Item identifier="metalcrate" reward="200" maxcount="60">
           <Item identifier="nitroglycerin" amount="1"/>
           <Item identifier="morbusine" amount="1"/>
           <Item identifier="potassium" amount="1"/>
         </Item>
       </Items>
-      <Reputation identifier="location" amount="1" />
+      <Reputation identifier="location" amount="4" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,256,256,256" color="243,146,55"/>
       <LocationType from="AnyOutpost" to="AnyOutpost" />
     </CargoMission>
 
     <CargoMission
 		  identifier="cargohuskeggs"
-		  tags="cargo,cargoresearch"
+		  tags="cargo,cargoresearch,cargoexplosiveseparatists,cargoweaponscoalition"
 		  type="Cargo"
 		  difficulty="2"
-		  commonness="50"
-		  reward="200"
+		  commonness="100"
+		  reward="100"
 		  achievementidentifier="cargomission">
       <Items>
         <Item identifier="chemicalcrate" reward="500" maxcount="8">
           <Item identifier="huskeggsbasic" amount="1"/>
         </Item>
       </Items>
-      <Reputation identifier="huskcult" amount="20" />
+      <Reputation identifier="huskcult" amount="30" />
       <Reputation identifier="clowns" amount="-5" />
-      <Reputation identifier="separatists" amount="-5" />
-      <Reputation identifier="coalition" amount="-5" />
+      <Reputation identifier="separatists" amount="-10" />
+      <Reputation identifier="coalition" amount="-10" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,256,256,256" color="243,146,55"/>
       <LocationType from="AnyOutpost" to="AnyOutpost" />
     </CargoMission>
 
     <CargoMission
 		  identifier="cargonitroglycerin"
-		  tags="cargo,cargoexplosive"
+		  tags="cargo,cargoexplosive,cargoexplosiveseparatists,cargoweaponscoalition"
 		  type="Cargo"
-		  difficulty="1"
-		  commonness="50"
-		  reward="200"
+		  difficulty="4"
+		  commonness="100"
+		  reward="100"
 		  achievementidentifier="cargomission">
       <Items>
-        <Item identifier="metalcrate" reward="200" maxcount="24">
+        <Item identifier="metalcrate" reward="200" maxcount="60">
           <Item identifier="nitroglycerin" amount="1"/>
           <Item identifier="potassium" amount="1"/>
         </Item>
       </Items>
-      <Reputation identifier="location" amount="1" />
+      <Reputation identifier="location" amount="4" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,256,256,256" color="243,146,55"/>
       <LocationType from="AnyOutpost" to="AnyOutpost" />
     </CargoMission>
 
     <CargoMission
 		  identifier="cargoclowngear"
-		  tags="cargo,cargoclown"
+		  tags="cargo,cargoclown,cargoexplosiveseparatists,cargoweaponscoalition"
 		  type="Cargo"
 		  difficulty="2"
 		  commonness="100"
-		  reward="200"
+		  reward="100"
 		  achievementidentifier="cargomission"
 		  requireddeliveryamount="0.98">
       <Items>
@@ -707,7 +707,7 @@
           <Item identifier="bikehorn" amount="1"/>
         </Item>
       </Items>
-      <Reputation identifier="clowns" amount="20" />
+      <Reputation identifier="clowns" amount="30" />
       <Reputation identifier="huskcult" amount="-5" />
       <Reputation identifier="separatists" amount="-10" />
       <Reputation identifier="coalition" amount="-10" />
@@ -717,14 +717,14 @@
 
     <CargoMission
 		  identifier="cargoconstructionminerals"
-		  tags="cargo,cargomaterials,cargocampaignstart"
+		  tags="cargo,cargomaterials,cargocampaignstart,cargoexplosiveseparatists,cargoweaponscoalition"
 		  type="Cargo"
-		  difficulty="1"
-		  commonness="50"
+		  difficulty="3"
+		  commonness="100"
 		  reward="100"
 		  achievementidentifier="cargomission"
 		  requireddeliveryamount="0.98">
-      <Reputation identifier="location" amount="1" />
+      <Reputation identifier="location" amount="3" />
       <Items>
         <Item identifier="metalcrate" reward="200" maxcount="36">
           <Item identifier="iron" amount="1"/>
@@ -738,14 +738,14 @@
 
     <CargoMission
 		  identifier="cargosecurityminerals"
-		  tags="cargo,cargomaterials"
+		  tags="cargo,cargomaterials,cargoexplosiveseparatists,cargoweaponscoalition"
 		  type="Cargo"
-		  difficulty="1"
-		  commonness="50"
+		  difficulty="3"
+		  commonness="100"
 		  reward="100"
 		  achievementidentifier="cargomission"
 		  requireddeliveryamount="0.98">
-      <Reputation identifier="location" amount="1" />
+      <Reputation identifier="location" amount="3" />
       <Items>
         <Item identifier="metalcrate" reward="200" maxcount="32">
           <Item identifier="nitroglycerin" amount="1"/>
@@ -759,14 +759,14 @@
 
     <CargoMission
 		  identifier="cargomeditems"
-		  tags="cargo,cargoresearch"
+		  tags="cargo,cargoresearch,cargoexplosiveseparatists,cargoweaponscoalition"
 		  type="Cargo"
-		  difficulty="1"
-		  commonness="50"
+		  difficulty="2"
+		  commonness="100"
 		  reward="100"
 		  achievementidentifier="cargomission"
 		  requireddeliveryamount="0.98">
-      <Reputation identifier="location" amount="1" />
+      <Reputation identifier="location" amount="2" />
       <Items>
         <Item identifier="metalcrate" reward="200" maxcount="24">
           <Item identifier="antidama1" amount="1"/>
@@ -779,10 +779,10 @@
     </CargoMission>
 
     <CargoMission
-		  identifier="cargomedemergency"
+		  identifier="cargomedemergency,cargoexplosiveseparatists,cargoweaponscoalition"
 		  type="Cargo"
 		  difficulty="1"
-		  commonness="30"
+		  commonness="100"
 		  reward="100"
 		  achievementidentifier="cargomission"
 		  requireddeliveryamount="0.98">
@@ -1228,16 +1228,16 @@
         <Character from="customnpcs2" identifier="commoner2" />
       </Characters>
       <TerroristItems>
-        <Item identifier="harpoongun" equip="true" mindifficulty="1">
+        <Item identifier="harpoongun" equip="true" mindifficulty="60">
           <Item identifier="explosivespear" amount="6"/>
         </Item>
-        <Item identifier="handcannon" equip="false" mindifficulty="1">
-          <Item identifier="handcannonround" amount="6"/>
+        <Item identifier="advancedsyringegun" equip="true" mindifficulty="40">
+          <Item identifier="morbusine" amount="4"/>
         </Item>
-        <Item identifier="shotgun" equip="true" mindifficulty="1">
-          <Item identifier="shotgunslugexplosive" amount="6"/>
+        <Item identifier="advancedsyringegun" equip="true" mindifficulty="40">
+          <Item identifier="cyanide" amount="4"/>
         </Item>
-        <Item identifier="boardingaxe" equip="true" mindifficulty="1"/>
+        <Item identifier="boardingaxe" equip="true" mindifficulty="20"/>
       </TerroristItems>
       <Reputation identifier="coalition" amount="5" />
       <Reputation identifier="separatists" amount="-5" />
@@ -1263,16 +1263,16 @@
         <Character from="customnpcs2" identifier="commoner2" />
       </Characters>
       <TerroristItems>
-        <Item identifier="harpoongun" equip="true" mindifficulty="1">
+        <Item identifier="harpoongun" equip="true" mindifficulty="60">
           <Item identifier="explosivespear" amount="6"/>
         </Item>
-        <Item identifier="handcannon" equip="false" mindifficulty="1">
-          <Item identifier="handcannonround" amount="6"/>
+        <Item identifier="advancedsyringegun" equip="true" mindifficulty="40">
+          <Item identifier="morbusine" amount="4"/>
         </Item>
-        <Item identifier="shotgun" equip="true" mindifficulty="1">
-          <Item identifier="shotgunslugexplosive" amount="6"/>
+        <Item identifier="advancedsyringegun" equip="true" mindifficulty="40">
+          <Item identifier="cyanide" amount="4"/>
         </Item>
-        <Item identifier="boardingaxe" equip="true" mindifficulty="1"/>
+        <Item identifier="boardingaxe" equip="true" mindifficulty="20"/>
       </TerroristItems>
       <Reputation identifier="separatists" amount="5" />
       <Reputation identifier="coalition" amount="-5" />
@@ -1280,8 +1280,8 @@
       <LocationType from="AnyOutpost" to="AnyOutpost" />
       <message header="missionheader0.escort4" text="missionmessage0.escort4"/>
       <message header="missionheader1.escort4separatists" text="missionmessage1.escort4separatists"/>
-    </EscortMission>    
-    
+    </EscortMission>
+
     <PirateMission
 	   type="Pirate"
 	   identifier="pirate1"
@@ -1292,11 +1292,11 @@
 	   achievementidentifier="combatmissioncoalitionvsseparatists"
 	   addedmissiondifficultyperplayer="8">
       <Reputation identifier="coalition" amount="5" />
-      <Reputation identifier="separatists" amount="-15" />
+      <Reputation identifier="separatists" amount="-10" />
       <SubmarineTypes>
-        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10" alternatereward="8200"/>
-        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40" alternatereward="8200"/>
-        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50" alternatereward="8200"/>
+        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="35" alternatereward="8200"/>
+        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="50" alternatereward="8200"/>
+        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="65" alternatereward="8200"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>
@@ -1333,11 +1333,11 @@
 		  achievementidentifier="combatmissionseparatistsvscoalition"
 		  addedmissiondifficultyperplayer="8">
       <Reputation identifier="separatists" amount="5" />
-      <Reputation identifier="coalition" amount="-15" />
+      <Reputation identifier="coalition" amount="-10" />
       <SubmarineTypes>
-        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10" alternatereward="8800"/>
-        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40" alternatereward="8800"/>
-        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50" alternatereward="8800"/>
+        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="35" alternatereward="8800"/>
+        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="50" alternatereward="8800"/>
+        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="65" alternatereward="8800"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="coalitioncaptain" minamount="1" maxamount="1"/>
@@ -1377,11 +1377,11 @@
 		  reward="1000"
 		  addedmissiondifficultyperplayer="8">
       <Reputation identifier="separatists" amount="2" />
-      <Reputation identifier="coalition" amount="-5" />
+      <Reputation identifier="coalition" amount="2" />
       <SubmarineTypes>
-        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10"/>
-        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40"/>
-        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50"/>
+        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="35"/>
+        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="50"/>
+        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="65"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="coalitioncaptain" minamount="1" maxamount="1"/>
@@ -1420,11 +1420,11 @@
 		  reward="1000"
 		  addedmissiondifficultyperplayer="8">
       <Reputation identifier="coalition" amount="2" />
-      <Reputation identifier="separatists" amount="-5" />
+      <Reputation identifier="separatists" amount="2" />
       <SubmarineTypes>
-        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="10"/>
-        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="40"/>
-        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="50"/>
+        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="35"/>
+        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="50"/>
+        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="65"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>
