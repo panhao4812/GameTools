@@ -651,7 +651,7 @@
 
     <CargoMission
 		  identifier="cargohuskeggs"
-		  tags="cargoweaponscoalition,cargoexplosiveseparatists,cargo,cargoresearch"
+		  tags="cargohuskcult,cargoweaponscoalition,cargoexplosiveseparatists,cargo,cargoresearch"
 		  type="Cargo"
 		  difficulty="4"
 		  commonness="100"
@@ -1295,9 +1295,9 @@
       <Reputation identifier="coalition" amount="5" />
       <Reputation identifier="separatists" amount="-10" />
       <SubmarineTypes>
-        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="35" alternatereward="8200"/>
-        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="50" alternatereward="8200"/>
-        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="65" alternatereward="8200"/>
+        <Submarine path="%ModDir%/Separatists Graticule 1.sub" preferreddifficulty="35" alternatereward="8200"/>
+        <Submarine path="%ModDir%/Separatists Graticule 2.sub" preferreddifficulty="50" alternatereward="8200"/>
+        <Submarine path="%ModDir%/Separatists Graticule 3.sub" preferreddifficulty="65" alternatereward="8200"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>
@@ -1423,9 +1423,9 @@
       <Reputation identifier="coalition" amount="2" />
       <Reputation identifier="separatists" amount="2" />
       <SubmarineTypes>
-        <Submarine path="%ModDir%/Coalition Probe 1.sub" preferreddifficulty="35"/>
-        <Submarine path="%ModDir%/Coalition Probe 2.sub" preferreddifficulty="50"/>
-        <Submarine path="%ModDir%/Coalition Probe 3.sub" preferreddifficulty="65"/>
+        <Submarine path="%ModDir%/Separatists Graticule 1.sub" preferreddifficulty="35"/>
+        <Submarine path="%ModDir%/Separatists Graticule 2.sub" preferreddifficulty="50"/>
+        <Submarine path="%ModDir%/Separatists Graticule 3.sub" preferreddifficulty="65"/>
       </SubmarineTypes>
       <Characters>
         <Character typeidentifier="separatistcaptain" minamount="1" maxamount="1"/>
