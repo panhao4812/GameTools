@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Probe" modversion="1.0.73" corepackage="False" steamworkshopid="2943620711" gameversion="1.0.21.0">
+  <BeaconStation file="%ModDir%/BeaconSeparatist_01.sub" />
+  <BeaconStation file="%ModDir%/BeaconHotel_01.sub" />
+  <BeaconStation file="%ModDir%/BeaconFarm_01.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_01.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_03.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_02.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_02_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_01_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_03_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconFarm_01_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconHotel_01_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconSeparatist_01_bandit.sub" />
+  <Submarine file="%ModDir%/ATK-89 Modification.sub" />
+  <Submarine file="%ModDir%/Probe 2.sub" />
+  <Submarine file="%ModDir%/Probe 1.sub" />
+  <Submarine file="%ModDir%/Probe 3.sub" />
+</contentpackage>
