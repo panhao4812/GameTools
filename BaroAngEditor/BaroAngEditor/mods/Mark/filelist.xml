@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Mark" modversion="1.0.128" corepackage="False" steamworkshopid="2932262964" gameversion="1.0.21.0">
+<contentpackage name="Mark" modversion="1.0.129" corepackage="False" steamworkshopid="2932262964" gameversion="1.0.21.0">
   <Submarine file="%ModDir%/Mark II.sub" />
   <Submarine file="%ModDir%/Mark 1.sub" />
   <Submarine file="%ModDir%/Mark 3.sub" />
+  <Submarine file="%ModDir%/Mark 2.sub" />
 </contentpackage>
