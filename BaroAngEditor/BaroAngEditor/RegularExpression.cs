@@ -293,6 +293,37 @@ namespace BaroAngEditor
             }
             return output;
         }
+        public string SolvePI1(IndexDomain pos1,bool format)
+        {
+            string str = "";
+            if (format)str+= "^(";
+            int int_a = Filt(pos1.I);
+            int int_b = Filt(pos1.J);
+            if (int_b == int_a)
+            {
+                str += int_a.ToString();
+            }
+            if (int_b > int_a)
+            {
+                str += ExpressionPair(new IndexDomain(int_a, int_b));
+            }
+            else if (int_b == 0)
+            {
+                str += ExpressionPair(new IndexDomain(int_a, 359)); str += "|";
+                str += int_b.ToString();
+            }
+            else if (int_a == 359)
+            {
+                str += int_a.ToString(); str += "|";
+                str += ExpressionPair(new IndexDomain(0, int_b));
+            }
+            else { 
+                str += ExpressionPair(new IndexDomain(int_a, 359)); str += "|";
+                str += ExpressionPair(new IndexDomain(0, int_b));
+            }
+            if (format) str += ")$";
+            return str;
+        }
         public string SolvePI2(IndexDomain pos1, IndexDomain pos2)
         {
             string str = "";
@@ -394,8 +425,7 @@ namespace BaroAngEditor
                 str += "\r\n"; str += "\r\n";
             }
             return str;
-        }
-
+        }      
         Tri3 SplitDomianTrible(IndexDomain pos1,ref string str,int i)
         {
             int Length1 = Convert.ToInt32(180.0 - Math.Abs(pos1.J - pos1.I) / 2.0);

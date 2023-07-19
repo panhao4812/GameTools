@@ -198,62 +198,37 @@ namespace BaroAngEditor
             try
             {
                 int int_a = Convert.ToInt32(box11.Text);
-                int int_b = Convert.ToInt32(box12.Text);          
-                if (int_a > 0 && int_b > 0 && int_a < int_b)
-                {
-                    err += RE.ExpressionPair(new IndexDomain(int_a, int_b));
-                }
+                int int_b = Convert.ToInt32(box12.Text);
+                    err += RE.SolvePI1(new IndexDomain(int_a, int_b),false);             
                 int int_c = Convert.ToInt32(box21.Text);
                 int int_d = Convert.ToInt32(box22.Text);
-                if (int_c > 0 && int_d > 0 && int_c < int_d)
-                {
                     err += "|";
-                    err += RE.ExpressionPair(new IndexDomain(int_c, int_d));
-                }
+                    err += RE.SolvePI1(new IndexDomain(int_c, int_d), false);           
                 int int_e = Convert.ToInt32(box31.Text);
                 int int_f = Convert.ToInt32(box32.Text);
-                if (int_e > 0 && int_f > 0 && int_e < int_f)
-                {
                     err += "|";
-                    err += RE.ExpressionPair(new IndexDomain(int_e, int_f));
-                }
+                    err += RE.SolvePI1(new IndexDomain(int_e, int_f), false);            
                 int int_g = Convert.ToInt32(box41.Text);
                 int int_h = Convert.ToInt32(box42.Text);
-                if (int_g > 0 && int_h > 0 && int_g < int_h)
-                {
                     err += "|";
-                    err += RE.ExpressionPair(new IndexDomain(int_g, int_h));
-                }
+                    err += RE.SolvePI1(new IndexDomain(int_g, int_h), false);
                 int int_i = Convert.ToInt32(box51.Text);
                 int int_j = Convert.ToInt32(box52.Text);
-                if (int_i > 0 && int_j > 0 && int_i < int_j)
-                {
                     err += "|";
-                    err += RE.ExpressionPair(new IndexDomain(int_i, int_j));
-                }
+                    err += RE.SolvePI1(new IndexDomain(int_i, int_j), false);
                 int int_k = Convert.ToInt32(box61.Text);
                 int int_l = Convert.ToInt32(box62.Text);
-                if (int_k > 0 && int_l > 0 && int_k < int_l)
-                {
                     err += "|";
-                    err += RE.ExpressionPair(new IndexDomain(int_k, int_l));
-                }
+                    err += RE.SolvePI1(new IndexDomain(int_k, int_l), false);
                 int int_m = Convert.ToInt32(box71.Text);
                 int int_n = Convert.ToInt32(box72.Text);
-                if (int_m > 0 && int_n > 0 && int_m < int_n)
-                {
                     err += "|";
-                    err += RE.ExpressionPair(new IndexDomain(int_m, int_n));
-                }
+                    err += RE.SolvePI1(new IndexDomain(int_m, int_n), false);
                 int int_o = Convert.ToInt32(box81.Text);
                 int int_p = Convert.ToInt32(box82.Text);
-                if (int_o > 0 && int_p > 0 && int_o < int_p)
-                {
                     err += "|";
-                    err += RE.ExpressionPair(new IndexDomain(int_o, int_p));
-                }
-            }
-            catch {
+                    err += RE.SolvePI1(new IndexDomain(int_o, int_p), false);
+            }catch {
                 if (err == "" | err == null) textBox1.Text += "Input Error";
             }
             textBox1.Text += "^("+err + ")$";
