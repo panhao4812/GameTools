@@ -62,13 +62,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.ReadStr = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox1.Location = new System.Drawing.Point(9, 109);
+            this.textBox1.Location = new System.Drawing.Point(11, 109);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -190,14 +192,14 @@
             // 
             // Db2
             // 
-            this.Db2.Location = new System.Drawing.Point(335, 60);
+            this.Db2.Location = new System.Drawing.Point(322, 60);
             this.Db2.Margin = new System.Windows.Forms.Padding(2);
             this.Db2.Name = "Db2";
-            this.Db2.Size = new System.Drawing.Size(56, 20);
+            this.Db2.Size = new System.Drawing.Size(67, 20);
             this.Db2.TabIndex = 2;
             this.Db2.Text = "Domain2";
             this.Db2.UseVisualStyleBackColor = true;
-            this.Db2.Click += new System.EventHandler(this.Domain2_Click);
+            this.Db2.Click += new System.EventHandler(this.Db2_Click);
             // 
             // Clear
             // 
@@ -406,6 +408,28 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "8";
             // 
+            // ReadStr
+            // 
+            this.ReadStr.Location = new System.Drawing.Point(275, 84);
+            this.ReadStr.Margin = new System.Windows.Forms.Padding(2);
+            this.ReadStr.Name = "ReadStr";
+            this.ReadStr.Size = new System.Drawing.Size(56, 20);
+            this.ReadStr.TabIndex = 2;
+            this.ReadStr.Text = "ReadStr";
+            this.ReadStr.UseVisualStyleBackColor = true;
+            this.ReadStr.Click += new System.EventHandler(this.ReadStr_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(157, 61);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(45, 20);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Pi1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Pi1_Click);
+            // 
             // Editor2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -420,6 +444,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Clear);
+            this.Controls.Add(this.ReadStr);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Db2);
             this.Controls.Add(this.Pi2);
             this.Controls.Add(this.Pi3);
@@ -489,5 +515,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button ReadStr;
+        private System.Windows.Forms.Button button1;
     }
 }
