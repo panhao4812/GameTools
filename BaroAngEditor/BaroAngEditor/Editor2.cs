@@ -16,10 +16,11 @@ namespace BaroAngEditor
         public Editor2()
         {
             InitializeComponent();
-            DefaultValue();
+            DefaultValue();         
         }
         public void DefaultValue2()
         {
+            Get_Step();
             box11.Text = "0"; box12.Text = "180";
             box21.Text = "90"; box22.Text = "270";
             box31.Text = "180"; box32.Text = "0";
@@ -32,6 +33,7 @@ namespace BaroAngEditor
         }
         public void DefaultValue()
         {
+            Get_Step();
             box11.Text = ""; box12.Text = "";
             box21.Text = ""; box22.Text = "";
             box31.Text = ""; box32.Text = "";
@@ -44,7 +46,20 @@ namespace BaroAngEditor
         }
         private void Clear_Click(object sender, EventArgs e)
         {
-            DefaultValue();
+            textBox1.Text = "";
+        }
+        public void Get_Step()
+        {
+            try
+            {
+                RE.step = Convert.ToInt32(step_box.Text);
+                step_box.Text = RE.step.ToString();
+            }
+            catch
+            {
+                RE.step = 1000;
+                step_box.Text = "1000";
+            }
         }
         private void Tri8_Click(object sender, EventArgs e)
         {
@@ -282,18 +297,61 @@ namespace BaroAngEditor
         }
         private void ReadStr_Click(object sender, EventArgs e)
         {
+            try
+            {
             string str = this.textBox1.Text;
-            string[] output = str.Split(new char[] { ',' });
-            if (output.Length > 1) { box11.Text = output[0]; box12.Text = output[1]; }
-            if (output.Length > 3) { box21.Text = output[2]; box22.Text = output[3]; }
-            if (output.Length > 5) { box31.Text = output[4]; box32.Text = output[5]; }
-            if (output.Length > 7) { box41.Text = output[6]; box42.Text = output[7]; }
-            if (output.Length > 9) { box51.Text = output[8]; box52.Text = output[9]; }
-            if (output.Length > 11) { box61.Text = output[10]; box62.Text = output[11]; }
-            if (output.Length > 13) { box71.Text = output[12]; box72.Text = output[13]; }
-            if (output.Length > 15) { box81.Text = output[14]; box82.Text = output[15]; }
-        }
+                str = str.Replace("\r\n", "");
+                str = str.Replace(" ", "");
+                str = str.Replace("\r", "");
+                str = str.Replace("\n", "");
+                RegularExpression RE = new RegularExpression();
+                string[] outputList = str.Split(new char[] { '|' });
+                
+            string err = "";
 
-       
+                for (int j = 0; j < outputList.Length; j++)
+                {
+                    err += "^(";
+                    string[] output = outputList[j].Split(new char[] { ',','，' });
+                    for (int i = 0; i < output.Length; i++)
+                    {
+                        if (output.Length > (i * 2 + 1))
+                        {
+                            int int_a = Convert.ToInt32(output[i * 2]);
+                            int int_b = Convert.ToInt32(output[i * 2 + 1]);
+                            if(!(int_b > int_a)) { continue; }
+                            if (i > 0) { err += "|"; }
+                            err += RE.ExpressionPair(new IndexDomain(int_a, int_b));
+                        }
+                    }
+                    err += ")$"+"\r\n"; err += "\r\n";
+                }
+             textBox1.Text = "";
+             textBox1.Text += err;
+            }
+            catch(Exception ex)
+            {
+               textBox1.Text += ex.ToString();
+            }
+        }
+        private void step_box_TextChanged(object sender, EventArgs e)
+        {
+            Get_Step();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (box11.Text == "" || box12.Text == "" ||
+             box21.Text == "" || box22.Text == "" ||
+             box31.Text == "" || box32.Text == "" ||
+             box41.Text == "" || box42.Text == "" ||
+             box51.Text == "" || box52.Text == "" ||
+             box61.Text == "" || box62.Text == "" ||
+             box71.Text == "" || box72.Text == "" ||
+             box81.Text == "" || box82.Text == "") {
+                default_button.Text = "default1";
+                DefaultValue2(); }
+            else { default_button.Text = "default2";
+                DefaultValue(); }
+        }
     }
 }

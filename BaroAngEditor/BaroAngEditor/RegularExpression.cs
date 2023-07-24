@@ -18,6 +18,7 @@ namespace BaroAngEditor
     }
     public class RegularExpression
     {
+        public int step=1000;
         public int Filt(int a)
         {
             a = a % 360;
@@ -97,7 +98,10 @@ namespace BaroAngEditor
             input = input.Distinct<int>().ToList();
             for (int i = 0; i < input.Count - 1; i++)
             {
-                output.Add(new IndexDomain(input[i], input[i + 1]));
+                if (input[i] < input[i + 1])
+                {
+                    output.Add(new IndexDomain(input[i], input[i + 1]));
+                }
             }
             return output;
         }
@@ -128,40 +132,16 @@ namespace BaroAngEditor
                 {
                     if (a1 < 359)
                     {
-                        output.Add(new IndexDomain(a1 + index * 360, 359 + index * 360));
+                        output.Add(new IndexDomain(a1 + index * step, 359 + index * step));
                     }
                     if (a2 > 0)
                     {
-                        output.Add(new IndexDomain(0 + index * 360, a2 + index * 360));
+                        output.Add(new IndexDomain(0 + index * step, a2 + index * step));
                     }
                 }
                 else if (a2 > a1)
                 {
-                    output.Add(new IndexDomain(a1 + index * 360, a2 + index * 360));
-                }
-            }
-            return output;
-        }
-        public List<IndexDomain> From1000Array(int[] input, int index)
-        {
-            List<IndexDomain> output = new List<IndexDomain>();
-            for (int i = 0; i < input.Length / 2.0; i++)
-            {
-                int a1 = input[i * 2], a2 = input[i * 2 + 1];
-                if (a1 > a2)
-                {
-                    if (a1 < 359)
-                    {
-                        output.Add(new IndexDomain(a1 + index * 1000, 359 + index * 1000));
-                    }
-                    if (a2 > 0)
-                    {
-                        output.Add(new IndexDomain(0 + index * 1000, a2 + index * 1000));
-                    }
-                }
-                else if (a2 > a1)
-                {
-                    output.Add(new IndexDomain(a1 + index * 1000, a2 + index * 1000));
+                    output.Add(new IndexDomain(a1 + index * step, a2 + index * step));
                 }
             }
             return output;
@@ -751,9 +731,9 @@ namespace BaroAngEditor
             list_int.Add(c); list_int.Add(RE.Filt(a - 1));
             list_int = list_int.Distinct<int>().ToList();
             if (list_int.Count != 6) return output;
-            pa = RE.From1000Array(new int[] { a, RE.Filt(b - 1) }, _index);
-            pb = RE.From1000Array(new int[] { b, RE.Filt(c - 1) }, _index);
-            pc = RE.From1000Array(new int[] { c, RE.Filt(a - 1) }, _index);
+            pa = RE.FromPIArray(new int[] { a, RE.Filt(b - 1) }, _index);
+            pb = RE.FromPIArray(new int[] { b, RE.Filt(c - 1) }, _index);
+            pc = RE.FromPIArray(new int[] { c, RE.Filt(a - 1) }, _index);
             string str = "";
             for (int i = 0; i < pa.Count; i++)
             {
