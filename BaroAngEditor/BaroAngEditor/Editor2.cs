@@ -12,7 +12,7 @@ namespace BaroAngEditor
 {
     public partial class Editor2 : Form
     {
-        RegularExpression RE = new RegularExpression();
+        private RegularExpression RE = new RegularExpression();
         public Editor2()
         {
             InitializeComponent();
@@ -44,10 +44,6 @@ namespace BaroAngEditor
             box81.Text = ""; box82.Text = "";
             textBox1.Text = "";
         }
-        private void Clear_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = "";
-        }
         public void Get_Step()
         {
             try
@@ -60,6 +56,14 @@ namespace BaroAngEditor
                 RE.step = 1000;
                 step_box.Text = "1000";
             }
+        }
+        private void step_box_TextChanged(object sender, EventArgs e)
+        {
+            Get_Step();
+        }
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
         }
         private void Tri8_Click(object sender, EventArgs e)
         {
@@ -176,7 +180,6 @@ namespace BaroAngEditor
                 new IndexDomain(int_g, int_h)
                  );
         }
-
         private void Pi3_Click(object sender, EventArgs e)
         {
             int int_a = Convert.ToInt32(box11.Text);
@@ -191,7 +194,6 @@ namespace BaroAngEditor
                 new IndexDomain(int_e, int_f)
                  );
         }
-
         private void Pi2_Click(object sender, EventArgs e)
         {
 
@@ -204,12 +206,10 @@ namespace BaroAngEditor
                 new IndexDomain(int_c, int_d));
 
         }
-
         private void Pi1_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
             string err = "";
-            RegularExpression RE = new RegularExpression();
             try
             {
                 int int_a = Convert.ToInt32(box11.Text);
@@ -254,7 +254,6 @@ namespace BaroAngEditor
         {
             textBox1.Text = "";
             string err = "";
-            RegularExpression RE = new RegularExpression();
             try
             {
                 int int_a = Convert.ToInt32(box11.Text);
@@ -304,7 +303,6 @@ namespace BaroAngEditor
                 str = str.Replace(" ", "");
                 str = str.Replace("\r", "");
                 str = str.Replace("\n", "");
-                RegularExpression RE = new RegularExpression();
                 string[] outputList = str.Split(new char[] { '|' });
                 
             string err = "";
@@ -333,12 +331,8 @@ namespace BaroAngEditor
             {
                textBox1.Text += ex.ToString();
             }
-        }
-        private void step_box_TextChanged(object sender, EventArgs e)
-        {
-            Get_Step();
-        }
-        private void button2_Click(object sender, EventArgs e)
+        }    
+        private void Default_Click(object sender, EventArgs e)
         {
             if (box11.Text == "" || box12.Text == "" ||
              box21.Text == "" || box22.Text == "" ||

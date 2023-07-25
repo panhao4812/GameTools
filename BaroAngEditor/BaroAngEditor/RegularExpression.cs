@@ -18,7 +18,7 @@ namespace BaroAngEditor
     }
     public class RegularExpression
     {
-        public int step=1000;
+        public int step = 1000;
         public int Filt(int a)
         {
             a = a % 360;
@@ -273,10 +273,10 @@ namespace BaroAngEditor
             }
             return output;
         }
-        public string SolvePI1(IndexDomain pos1,bool format)
+        public string SolvePI1(IndexDomain pos1, bool format)
         {
             string str = "";
-            if (format)str+= "^(";
+            if (format) str += "^(";
             int int_a = Filt(pos1.I);
             int int_b = Filt(pos1.J);
             if (int_b == int_a)
@@ -297,7 +297,8 @@ namespace BaroAngEditor
                 str += int_a.ToString(); str += "|";
                 str += ExpressionPair(new IndexDomain(0, int_b));
             }
-            else { 
+            else
+            {
                 str += ExpressionPair(new IndexDomain(int_a, 359)); str += "|";
                 str += ExpressionPair(new IndexDomain(0, int_b));
             }
@@ -309,12 +310,12 @@ namespace BaroAngEditor
             string str = "";
             int int_a = Filt(pos1.I);
             int int_b = Filt(pos1.J);
-            str +="[ "+ int_a.ToString() + " , " + int_b.ToString() + " ]\r\n";
-            PI2 pi1 = new PI2(int_a, int_b, 1);
+            str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " ]\r\n";
+            PI2 pi1 = new PI2(int_a, int_b, 1, this);
             int_a = Filt(pos2.J);
             int_b = Filt(pos2.I);
             str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " ]\r\n";
-            PI2 pi2 = new PI2(int_a, int_b, 2);
+            PI2 pi2 = new PI2(int_a, int_b, 2, this);
             List<string> output1 = pi1.ToExpression();
             List<string> output2 = pi2.ToExpression();
             str += "\r\n";
@@ -333,19 +334,19 @@ namespace BaroAngEditor
             int int_b = Filt(pos1.J);
             int int_c = Filt(pos1.J + Length1);
             str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " , " + int_c.ToString() + " ]\r\n";
-            PI3 pi1 = new PI3(int_a, int_b, int_c, 1);
+            PI3 pi1 = new PI3(int_a, int_b, int_c, 1, this);
             Length1 = Convert.ToInt32(180.0 - Math.Abs(pos2.J - pos2.I) / 2.0);
             int_a = Filt(pos2.I - Length1);
             int_b = Filt(pos2.I);
             int_c = Filt(pos2.J);
             str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " , " + int_c.ToString() + " ]\r\n";
-            PI3 pi2 = new PI3(int_a, int_b, int_c, 2);
+            PI3 pi2 = new PI3(int_a, int_b, int_c, 2, this);
             Length1 = Convert.ToInt32(180.0 - Math.Abs(pos3.J - pos3.I) / 2.0);
             int_a = Filt(pos3.J);
             int_b = Filt(pos3.J + Length1);
             int_c = Filt(pos3.I);
             str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " , " + int_c.ToString() + " ]\r\n";
-            PI3 pi3 = new PI3(int_a, int_b, int_c, 3);
+            PI3 pi3 = new PI3(int_a, int_b, int_c, 3, this);
             List<string> output1 = pi1.ToExpression();
             List<string> output2 = pi2.ToExpression();
             List<string> output3 = pi3.ToExpression();
@@ -366,9 +367,9 @@ namespace BaroAngEditor
             int int_b = Filt(pos1.J);
             int int_c = Filt(pos1.J + Length1);
             int int_d = Filt(pos1.I - Length1);
-            str +="[ "+ int_a.ToString() + " , " + int_b.ToString() + " , " +
+            str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " , " +
                 int_c.ToString() + " , " + int_d.ToString() + " ]\r\n";
-            PI4 pi1 = new PI4(int_a, int_b, int_c, int_d, 1);
+            PI4 pi1 = new PI4(int_a, int_b, int_c, int_d, 1, this);
             Length1 = Convert.ToInt32(120.0 - Math.Abs(pos2.J - pos2.I) / 3.0);
             int_a = Filt(pos2.I - Length1);
             int_b = Filt(pos2.I);
@@ -376,7 +377,7 @@ namespace BaroAngEditor
             int_d = Filt(pos2.J + Length1);
             str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " , " +
                int_c.ToString() + " , " + int_d.ToString() + " ]\r\n";
-            PI4 pi2 = new PI4(int_a, int_b, int_c, int_d, 2);
+            PI4 pi2 = new PI4(int_a, int_b, int_c, int_d, 2, this);
             Length1 = Convert.ToInt32(120.0 - Math.Abs(pos3.J - pos3.I) / 3.0);
             int_a = Filt(pos3.J + Length1);
             int_b = Filt(pos3.I - Length1);
@@ -384,7 +385,7 @@ namespace BaroAngEditor
             int_d = Filt(pos3.J);
             str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " , " +
                int_c.ToString() + " , " + int_d.ToString() + " ]\r\n";
-            PI4 pi3 =  new PI4(int_a, int_b, int_c, int_d, 3);
+            PI4 pi3 = new PI4(int_a, int_b, int_c, int_d, 3, this);
             Length1 = Convert.ToInt32(120.0 - Math.Abs(pos4.J - pos4.I) / 3.0);
             int_a = Filt(pos4.J);
             int_b = Filt(pos4.J + Length1);
@@ -392,7 +393,7 @@ namespace BaroAngEditor
             int_d = Filt(pos4.I);
             str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " , " +
                int_c.ToString() + " , " + int_d.ToString() + " ]\r\n";
-            PI4 pi4 = new PI4(int_a, int_b, int_c, int_d, 4);
+            PI4 pi4 = new PI4(int_a, int_b, int_c, int_d, 4, this);
             List<string> output1 = pi1.ToExpression();
             List<string> output2 = pi2.ToExpression();
             List<string> output3 = pi3.ToExpression();
@@ -405,21 +406,21 @@ namespace BaroAngEditor
                 str += "\r\n"; str += "\r\n";
             }
             return str;
-        }      
-        Tri3 SplitDomianTrible(IndexDomain pos1,ref string str,int i)
+        }
+        Tri3 SplitDomianTrible(IndexDomain pos1, ref string str, int i)
         {
             int Length1 = Convert.ToInt32(180.0 - Math.Abs(pos1.J - pos1.I) / 2.0);
             int int_a = Filt(pos1.I);
             int int_b = Filt(pos1.J);
             int int_c = Filt(pos1.J + Length1);
             str += "[ " + int_a.ToString() + " , " + int_b.ToString() + " , " + int_c.ToString() + " ]\r\n";
-            return new Tri3(int_a, int_b, int_c, i);
+            return new Tri3(int_a, int_b, int_c, i, this);
         }
-        public string SolveTri5(IndexDomain pos1, IndexDomain pos2, IndexDomain pos3, IndexDomain pos4, 
+        public string SolveTri5(IndexDomain pos1, IndexDomain pos2, IndexDomain pos3, IndexDomain pos4,
             IndexDomain pos5)
         {
             string str = "";
-            Tri3 pi1 = SplitDomianTrible(pos1, ref str,1);
+            Tri3 pi1 = SplitDomianTrible(pos1, ref str, 1);
             Tri3 pi2 = SplitDomianTrible(pos2, ref str, 2);
             Tri3 pi3 = SplitDomianTrible(pos3, ref str, 3);
             Tri3 pi4 = SplitDomianTrible(pos4, ref str, 4);
@@ -429,15 +430,15 @@ namespace BaroAngEditor
             List<string> output3 = pi3.ToExpression();
             List<string> output4 = pi4.ToExpression();
             List<string> output5 = pi5.ToExpression();
-            str += "\r\n";         
-            str += "^(" + output5[1] + "|" + output1[0] + "|"+ output2[2] + ")$" + "\r\n\r\n";
-            str += "^(" + output1[1] + "|" + output2[0] + "|"+ output3[2] + ")$" + "\r\n\r\n";
-            str += "^(" + output2[1] + "|" + output3[0] + "|"+ output4[2] + ")$" + "\r\n\r\n";
-            str += "^(" + output3[1] + "|" + output4[0] + "|"+ output5[2] + ")$" + "\r\n\r\n";
-            str += "^(" + output4[1] + "|" + output5[0] + "|"+ output1[2] + ")$" + "\r\n\r\n";
+            str += "\r\n";
+            str += "^(" + output5[1] + "|" + output1[0] + "|" + output2[2] + ")$" + "\r\n\r\n";
+            str += "^(" + output1[1] + "|" + output2[0] + "|" + output3[2] + ")$" + "\r\n\r\n";
+            str += "^(" + output2[1] + "|" + output3[0] + "|" + output4[2] + ")$" + "\r\n\r\n";
+            str += "^(" + output3[1] + "|" + output4[0] + "|" + output5[2] + ")$" + "\r\n\r\n";
+            str += "^(" + output4[1] + "|" + output5[0] + "|" + output1[2] + ")$" + "\r\n\r\n";
             return str;
         }
-        public string SolveTri6(IndexDomain pos1, IndexDomain pos2, IndexDomain pos3, IndexDomain pos4, 
+        public string SolveTri6(IndexDomain pos1, IndexDomain pos2, IndexDomain pos3, IndexDomain pos4,
             IndexDomain pos5, IndexDomain pos6)
         {
             string str = "";
@@ -462,7 +463,7 @@ namespace BaroAngEditor
             str += "^(" + output5[1] + "|" + output6[0] + "|" + output1[2] + ")$" + "\r\n\r\n";
             return str;
         }
-        public string SolveTri7(IndexDomain pos1, IndexDomain pos2, IndexDomain pos3, IndexDomain pos4, 
+        public string SolveTri7(IndexDomain pos1, IndexDomain pos2, IndexDomain pos3, IndexDomain pos4,
             IndexDomain pos5, IndexDomain pos6, IndexDomain pos7)
         {
             string str = "";
@@ -490,7 +491,7 @@ namespace BaroAngEditor
             str += "^(" + output6[1] + "|" + output7[0] + "|" + output1[2] + ")$" + "\r\n\r\n";
             return str;
         }
-        public string SolveTri8(IndexDomain pos1, IndexDomain pos2, IndexDomain pos3, IndexDomain pos4, 
+        public string SolveTri8(IndexDomain pos1, IndexDomain pos2, IndexDomain pos3, IndexDomain pos4,
             IndexDomain pos5, IndexDomain pos6, IndexDomain pos7, IndexDomain pos8)
         {
             string str = "";
@@ -532,11 +533,12 @@ namespace BaroAngEditor
             str += _b.ToString();
             return str;
         }
-        public PI2(int a, int b, int index)
+        public PI2(int a, int b, int index, RegularExpression re)
         {
             _a = RE.Filt(a);
             _b = RE.Filt(b);
             _index = index;
+            RE = re;
         }
         public List<string> ToExpression()
         {
@@ -568,23 +570,24 @@ namespace BaroAngEditor
             output.Add(str); str = "";
             return output;
         }
-    }   
+    }
     public class PI3
     {
         public int _a, _b, _c, _index;
-        RegularExpression RE = new RegularExpression();
+        RegularExpression RE=new RegularExpression();
         public override string ToString()
         {
             string str = _a.ToString() + " ";
             str += _b.ToString() + " " + _c.ToString();
             return str;
         }
-        public PI3(int a, int b, int c, int index)
+        public PI3(int a, int b, int c, int index, RegularExpression re)
         {
             _a = RE.Filt(a);
             _b = RE.Filt(b);
             _c = RE.Filt(c);
             _index = index;
+            RE = re;
         }
         public List<string> ToExpression()
         {
@@ -639,13 +642,14 @@ namespace BaroAngEditor
             return str;
         }
         RegularExpression RE = new RegularExpression();
-        public PI4(int a, int b, int c, int d, int index)
+        public PI4(int a, int b, int c, int d, int index, RegularExpression re)
         {
             _a = RE.Filt(a);
             _b = RE.Filt(b);
             _c = RE.Filt(c);
             _d = RE.Filt(d);
             _index = index;
+            RE = re;
         }
         public List<string> ToExpression()
         {
@@ -708,12 +712,13 @@ namespace BaroAngEditor
             str += _b.ToString() + " " + _c.ToString();
             return str;
         }
-        public Tri3(int a, int b, int c, int index)
+        public Tri3(int a, int b, int c, int index, RegularExpression re)
         {
             _a = RE.Filt(a);
             _b = RE.Filt(b);
             _c = RE.Filt(c);
             _index = index;
+            RE = re;
         }
         public List<string> ToExpression()
         {

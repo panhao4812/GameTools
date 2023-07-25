@@ -445,7 +445,7 @@
             // 
             this.step_box.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.step_box.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.step_box.Location = new System.Drawing.Point(442, 72);
+            this.step_box.Location = new System.Drawing.Point(438, 72);
             this.step_box.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.step_box.Name = "step_box";
             this.step_box.Size = new System.Drawing.Size(79, 30);
@@ -471,7 +471,7 @@
             this.default_button.TabIndex = 2;
             this.default_button.Text = "Default";
             this.default_button.UseVisualStyleBackColor = true;
-            this.default_button.Click += new System.EventHandler(this.button2_Click);
+            this.default_button.Click += new System.EventHandler(this.Default_Click);
             // 
             // Editor2
             // 
