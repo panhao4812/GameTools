@@ -239,6 +239,7 @@
       <monster character="spineling_giant" min="8" max="10"/>
       <Reputation identifier="location" amount="4" />
       <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
+	  <message header="missionheader0.killgiantspineling1" text="missionmessage0.killgiantspineling1"/>
     </MonsterMission>
 
     <MonsterMission

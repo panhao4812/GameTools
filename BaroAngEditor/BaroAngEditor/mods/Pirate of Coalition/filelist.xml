@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Pirate of Coalition" modversion="1.0.23" corepackage="False" steamworkshopid="2948446664" gameversion="1.0.21.0">
+<contentpackage name="Pirate of Coalition" modversion="1.0.26" corepackage="False" steamworkshopid="2948446664" gameversion="1.0.21.0">
   <MapGenerationParameters file="%ModDir%/MapGenerationParameters_Override.xml" />
   <NPCSets file="%ModDir%/Npcs_Override.xml" />
   <NPCSets file="%ModDir%/Npcs_Custom.xml" />
@@ -9,10 +9,10 @@
   <Character file="%ModDir%/AbyssMoloch.xml" />
   <Character file="%ModDir%/GiantHammerhead.xml" />
   <Character file="%ModDir%/GiantThresher.xml" />
-  <EnemySubmarine file="%ModDir%/Coalition Probe 1.sub" />
-  <EnemySubmarine file="%ModDir%/Separatists Graticule 1.sub" />
-  <EnemySubmarine file="%ModDir%/Separatists Graticule 3.sub" />
-  <EnemySubmarine file="%ModDir%/Separatists Graticule 2.sub" />
   <EnemySubmarine file="%ModDir%/Coalition Probe 2.sub" />
+  <EnemySubmarine file="%ModDir%/Coalition Probe 1.sub" />
+  <EnemySubmarine file="%ModDir%/Separatists Graticule 2.sub" />
+  <EnemySubmarine file="%ModDir%/Separatists Graticule 3.sub" />
+  <EnemySubmarine file="%ModDir%/Separatists Graticule 1.sub" />
   <EnemySubmarine file="%ModDir%/Coalition Probe 3.sub" />
 </contentpackage>
