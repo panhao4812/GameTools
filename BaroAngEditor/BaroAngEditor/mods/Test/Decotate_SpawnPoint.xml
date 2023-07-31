@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemAssembly name="Decotate_SpawnPoint" description="" hideinmenus="false">
+  <WayPoint ID="4372" x="-208" y="-112" spawn="Human" idcarddesc="player" idcardtags="captain" job="mechanic" />
+  <WayPoint ID="4373" x="336" y="-112" spawn="Human" idcarddesc="player" idcardtags="captain" job="captain" />
+  <WayPoint ID="4374" x="-288" y="-112" spawn="Human" idcarddesc="player" idcardtags="captain" job="engineer" />
+  <WayPoint ID="4375" x="-96" y="-112" spawn="Human" idcarddesc="player" idcardtags="captain" job="securityofficer" />
+  <WayPoint ID="4376" x="64" y="-112" spawn="Human" idcarddesc="player" idcardtags="captain" job="medicaldoctor" />
+  <WayPoint ID="4377" x="224" y="-112" spawn="Human" idcarddesc="player" idcardtags="captain" job="assistant" />
+  <WayPoint ID="4378" x="320" y="144" spawn="Human" job="prisoner" />
+  <WayPoint ID="4379" x="-288" y="144" spawn="Human" job="watchman" />
+  <WayPoint ID="4380" x="-224" y="144" spawn="Human" job="vip" />
+  <WayPoint ID="4381" x="-144" y="144" spawn="Human" job="vipsecurityofficer" />
+  <WayPoint ID="4382" x="-368" y="144" spawn="Human" job="commoner" />
+  <WayPoint ID="4383" x="208" y="144" spawn="Cargo" />
+</ItemAssembly>
