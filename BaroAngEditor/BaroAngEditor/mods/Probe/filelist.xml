@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Probe" modversion="1.0.108" corepackage="False" steamworkshopid="2943620711" gameversion="1.0.21.0">
+<contentpackage name="Probe" modversion="1.0.109" corepackage="False" steamworkshopid="2943620711" gameversion="1.0.21.0">
   <BeaconStation file="%ModDir%/BeaconHotel_01.sub" />
   <BeaconStation file="%ModDir%/BeaconFarm_01.sub" />
   <BeaconStation file="%ModDir%/BeaconCoalition_03.sub" />
