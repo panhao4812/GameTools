@@ -596,16 +596,16 @@
 			  tags="cargoseparatists,cargoexplosiveseparatists"
 			  type="Cargo"
 			  difficulty="4"
-			  commonness="25"
+			  commonness="15"
 			  achievementidentifier="cargomission">
 			<Items>
-				<Item identifier="metalcrate" reward="200" maxcount="96">
+				<Item identifier="metalcrate" reward="100" maxcount="90">
 					<Item identifier="nitroglycerin" amount="1"/>
 					<Item identifier="sodium" amount="1"/>
 				</Item>
 			</Items>
 			<Reputation identifier="separatists" amount="5" />
-			<Reputation identifier="coalition" amount="-50" />
+			<Reputation identifier="coalition" amount="-10" />
 			<Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,256,256,256" color="243,146,55"/>
 			<LocationType from="AnyOutpost" to="AnyOutpost" />
 		</CargoMission>
@@ -615,23 +615,23 @@
 			  tags="cargocoalition,cargoweaponscoalition"
 			  type="Cargo"
 			  difficulty="4"
-			  commonness="25"
+			  commonness="15"
 			  achievementidentifier="cargomission">
 			<Items>
-				<Item identifier="metalcrate" reward="200" maxcount="96">
+				<Item identifier="metalcrate" reward="100" maxcount="90">
 					<Item identifier="potassium" amount="1"/>
 					<Item identifier="nitroglycerin" amount="1"/>
 				</Item>
 			</Items>
 			<Reputation identifier="coalition" amount="5" />
-			<Reputation identifier="separatists" amount="-50" />
+			<Reputation identifier="separatists" amount="-10" />
 			<Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,256,256,256" color="243,146,55"/>
 			<LocationType from="AnyOutpost" to="AnyOutpost" />
 		</CargoMission>
 
 		<CargoMission
 			  identifier="cargochemicals"
-			  tags="cargo,cargoresearch,cargoweaponscoalition,cargoexplosiveseparatists"
+			  tags="cargo,cargoresearch,cargohuskcult"
 			  type="Cargo"
 			  difficulty="3"
 			  commonness="50"
@@ -652,7 +652,7 @@
 
 		<CargoMission
 			  identifier="cargohuskeggs"
-			  tags="cargohuskcult,cargoweaponscoalition,cargoexplosiveseparatists,cargo,cargoresearch"
+			  tags="cargohuskcult"
 			  type="Cargo"
 			  difficulty="4"
 			  commonness="100"
@@ -666,18 +666,18 @@
 			</Items>
 			<Reputation identifier="huskcult" amount="30" />
 			<Reputation identifier="clowns" amount="-5" />
-			<Reputation identifier="separatists" amount="-15" />
-			<Reputation identifier="coalition" amount="-15" />
+			<Reputation identifier="separatists" amount="-5" />
+			<Reputation identifier="coalition" amount="-5" />
 			<Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,256,256,256" color="243,146,55"/>
 			<LocationType from="AnyOutpost" to="AnyOutpost" />
 		</CargoMission>
 
 		<CargoMission
 			  identifier="cargonitroglycerin"
-			  tags="cargo,cargoexplosive,cargoweaponscoalition,cargoexplosiveseparatists"
+			  tags="cargo,cargoexplosive,cargoclown"
 			  type="Cargo"
 			  difficulty="3"
-			  commonness="50"
+			  commonness="100"
 			  reward="100"
 			  achievementidentifier="cargomission">
 			<Items>
@@ -693,7 +693,7 @@
 
 		<CargoMission
 			  identifier="cargoclowngear"
-			  tags="cargoclown,cargo,cargoweaponscoalition,cargoexplosiveseparatists"
+			  tags="cargoclown"
 			  type="Cargo"
 			  difficulty="4"
 			  commonness="100"
@@ -710,18 +710,18 @@
 			</Items>
 			<Reputation identifier="clowns" amount="30" />
 			<Reputation identifier="huskcult" amount="-5" />
-			<Reputation identifier="separatists" amount="-15" />
-			<Reputation identifier="coalition" amount="-15" />
+			<Reputation identifier="separatists" amount="-5" />
+			<Reputation identifier="coalition" amount="-5" />
 			<Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,256,256,256" color="243,146,55"/>
 			<LocationType from="AnyOutpost" to="AnyOutpost" />
 		</CargoMission>
 
 		<CargoMission
 			  identifier="cargoconstructionminerals"
-			  tags="cargo,cargomaterials,cargoweaponscoalition,cargoexplosiveseparatists,cargocampaignstart"
+			  tags="cargo,cargomaterials,cargocampaignstart,cargoclown"
 			  type="Cargo"
 			  difficulty="3"
-			  commonness="50"
+			  commonness="100"
 			  reward="100"
 			  achievementidentifier="cargomission"
 			  requireddeliveryamount="0.98">
@@ -739,10 +739,10 @@
 
 		<CargoMission
 			  identifier="cargosecurityminerals"
-			  tags="cargo,cargomaterials,cargoweaponscoalition,cargoexplosiveseparatists"
+			  tags="cargo,cargomaterials,cargocampaignstart,cargoclown"
 			  type="Cargo"
 			  difficulty="3"
-			  commonness="50"
+			  commonness="100"
 			  reward="100"
 			  achievementidentifier="cargomission"
 			  requireddeliveryamount="0.98">
@@ -760,10 +760,10 @@
 
 		<CargoMission
 			  identifier="cargomeditems"
-			  tags="cargo,cargoresearch,cargoweaponscoalition,cargoexplosiveseparatists"
+			  tags="cargo,cargoresearch,cargohuskcult"
 			  type="Cargo"
 			  difficulty="3"
-			  commonness="50"
+			  commonness="100"
 			  reward="100"
 			  achievementidentifier="cargomission"
 			  requireddeliveryamount="0.98">
@@ -781,7 +781,7 @@
 
 		<CargoMission
 			  identifier="cargomedemergency"
-			  tags="cargo,cargoresearch,cargoweaponscoalition,cargoexplosiveseparatists"
+			  tags="cargo,cargoresearch,cargohuskcult"
 			  type="Cargo"
 			  difficulty="1"
 			  commonness="100"
@@ -790,8 +790,9 @@
 			  requireddeliveryamount="0.98">
 			<Reputation identifier="location" amount="1" />
 			<Items>
-				<Item identifier="mediccrate" reward="100" maxcount="26">
-					<Item identifier="antidama1" amount="1"/>
+				<Item identifier="metalcrate" reward="100" maxcount="26">
+					<Item identifier="potassium" amount="1"/>
+					<Item identifier="nitroglycerin" amount="1"/>
 				</Item>
 			</Items>
 			<Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,0,256,256" color="243,146,55"/>
