@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Graticule" modversion="1.0.44" corepackage="False" steamworkshopid="2965587586" gameversion="1.5.9.1">
+<contentpackage name="Graticule" modversion="1.0.45" corepackage="False" steamworkshopid="2965587586" gameversion="1.5.9.1">
   <EnemySubmarine file="%ModDir%/Graticule 1.sub" />
   <Submarine file="%ModDir%/Graticule 1.sub" />
   <Submarine file="%ModDir%/Graticule 4.sub" />
