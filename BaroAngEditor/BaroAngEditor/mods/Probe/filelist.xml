@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Probe" modversion="1.0.130" corepackage="False" steamworkshopid="2943620711" gameversion="1.5.9.1">
-  <BeaconStation file="%ModDir%/BeaconCoalition_03.sub" />
-  <BeaconStation file="%ModDir%/BeaconCoalition_02.sub" />
-  <BeaconStation file="%ModDir%/BeaconCoalition_02_bandit.sub" />
-  <BeaconStation file="%ModDir%/BeaconCoalition_03_bandit.sub" />
-  <BeaconStation file="%ModDir%/BeaconCoalition_01.sub" />
-  <BeaconStation file="%ModDir%/BeaconCoalition_01_bandit.sub" />
-  <BeaconStation file="%ModDir%/BeaconSeparatist_01_bandit.sub" />
-  <BeaconStation file="%ModDir%/BeaconSeparatist_01.sub" />
+<contentpackage name="Probe" modversion="1.0.131" corepackage="False" steamworkshopid="2943620711" gameversion="1.5.9.1">
+  <Submarine file="%ModDir%/ProbeDone Swordfish Signal1.sub" />
+  <Submarine file="%ModDir%/ProbeDone Swordfish Signal2.sub" />
+  <Submarine file="%ModDir%/ProbeDone Swordfish Signal3.sub" />
   <Submarine file="%ModDir%/Probe 1.sub" />
-  <BeaconStation file="%ModDir%/BeaconFarm_01.sub" />
+  <Submarine file="%ModDir%/Probe 2.sub" />
+  <Submarine file="%ModDir%/Probe 3.sub" />
+  <Submarine file="%ModDir%/Probe 2A.sub" />
   <BeaconStation file="%ModDir%/BeaconFarm_01_bandit.sub" />
   <BeaconStation file="%ModDir%/BeaconHotel_01_bandit.sub" />
-  <BeaconStation file="%ModDir%/BeaconHotel_02.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_01.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_02.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_02_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_03.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_01_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconCoalition_03_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconFarm_01.sub" />
   <BeaconStation file="%ModDir%/BeaconHotel_01.sub" />
-  <Submarine file="%ModDir%/Probe 3.sub" />
-  <Submarine file="%ModDir%/Probe 2.sub" />
-  <Submarine file="%ModDir%/ProbeDone Swordfish Signal3.sub" />
-  <Submarine file="%ModDir%/ProbeDone Swordfish Signal2.sub" />
-  <Submarine file="%ModDir%/ProbeDone Swordfish Signal1.sub" />
-  <Submarine file="%ModDir%/Probe 2A.sub" />
+  <BeaconStation file="%ModDir%/BeaconSeparatist_01.sub" />
+  <BeaconStation file="%ModDir%/BeaconSeparatist_01_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconHotel_02.sub" />
 </contentpackage>
