@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="test" modversion="1.0.23" corepackage="False" gameversion="1.5.9.1">
+<contentpackage name="test" modversion="1.0.24" corepackage="False" gameversion="1.5.9.1">
   <ItemAssembly file="%ModDir%/Camera switching system.xml" />
   <ItemAssembly file="%ModDir%/Decorate_BackGround.xml" />
   <ItemAssembly file="%ModDir%/Decorate_BasicLogic.xml" />
@@ -10,10 +10,10 @@
   <ItemAssembly file="%ModDir%/ractor battery.xml" />
   <ItemAssembly file="%ModDir%/Gun2.xml" />
   <ItemAssembly file="%ModDir%/doorshatch2.xml" />
-  <Submarine file="%ModDir%/T-Barsuk.sub" />
   <Submarine file="%ModDir%/T-Mark 3.sub" />
-  <Submarine file="%ModDir%/T-Mark 1.sub" />
   <Submarine file="%ModDir%/T-MarkDone Sunfish signal1.sub" />
   <Submarine file="%ModDir%/T-FrontPage.sub" />
+  <Submarine file="%ModDir%/T-Mark 1.sub" />
+  <Submarine file="%ModDir%/T-Barsuk.sub" />
   <Submarine file="%ModDir%/T-ATK-89.sub" />
 </contentpackage>
