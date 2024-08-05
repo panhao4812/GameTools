@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Probe" modversion="1.0.134" corepackage="False" steamworkshopid="2943620711" gameversion="1.5.9.1">
+<contentpackage name="Probe" modversion="1.0.136" corepackage="False" steamworkshopid="2943620711" gameversion="1.5.9.1">
   <Submarine file="%ModDir%/ProbeDone Swordfish Signal1.sub" />
   <Submarine file="%ModDir%/ProbeDone Swordfish Signal2.sub" />
   <Submarine file="%ModDir%/ProbeDone Swordfish Signal3.sub" />
