@@ -1,9 +1,0 @@
-<Charactervariant inherit="Endworm" speciesname="Abyssworm" usebosshealthbar="true">
-  <health vitality="15000" poisonvulnerability="0.15"/>
-  <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="1">
-    <Item identifier="endwormshell" amount="3" />
-  </Inventory>
-  <ragdoll scalemultiplier="1.25"/>
-  <attack damagemultiplier="1.25" rangemultiplier="1.25" impactmultiplier="1.25"/>
-  <ai combatstrength="20000" sight="3" hearing="5" avoidabyss="False" stayinabyss="true"/>
-</Charactervariant>
