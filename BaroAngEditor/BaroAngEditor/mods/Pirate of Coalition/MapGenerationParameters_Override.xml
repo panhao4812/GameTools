@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<override>
 <MapGenerationParameters
   DifficultyZones="6"
   GateCount="2,2,2,2,2,1"
@@ -69,3 +70,4 @@
     borderanimationspeed="1.666"
   />
 </MapGenerationParameters>
+</override>
