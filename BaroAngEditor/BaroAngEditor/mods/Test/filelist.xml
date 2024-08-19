@@ -5,6 +5,7 @@
   <ItemAssembly file="%ModDir%/Decorate_BasicLogic.xml" />
   <ItemAssembly file="%ModDir%/Decotate_SpawnPoint.xml" />
   <ItemAssembly file="%ModDir%/Decorate_probe.xml" />
+	<ItemAssembly file="%ModDir%/信标.xml" />
   <Submarine file="%ModDir%/Test.sub" />
   <ItemAssembly file="%ModDir%/ractor battery.xml" />
   <ItemAssembly file="%ModDir%/Gun2.xml" />
