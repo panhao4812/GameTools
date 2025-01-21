@@ -1,12 +1,41 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ph\\Documents\\GitHub\\GameTools\\ZianLauncher\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{126AA93B-5CAD-4DB2-94AC-ACCB5352A59D}|ZianLauncher2\\ZianLauncher2.csproj|c:\\users\\ph\\documents\\github\\gametools\\zianlauncher\\zianlauncher2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{126AA93B-5CAD-4DB2-94AC-ACCB5352A59D}|ZianLauncher2\\ZianLauncher2.csproj|solutionrelative:zianlauncher2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ph\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher2\\Program.cs",
+              "RelativeDocumentMoniker": "ZianLauncher2\\Program.cs",
+              "ToolTip": "C:\\Users\\ph\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher2\\Program.cs",
+              "RelativeToolTip": "ZianLauncher2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T07:57:52.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
