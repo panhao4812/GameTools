@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Probe" modversion="1.0.162" corepackage="False" steamworkshopid="2943620711" gameversion="1.7.7.0">
+<contentpackage name="Probe" modversion="1.0.163" corepackage="False" steamworkshopid="2943620711" gameversion="1.7.7.0">
   <BeaconStation file="%ModDir%/BeaconCoalition_01.sub" />
   <BeaconStation file="%ModDir%/BeaconFarm_01.sub" />
   <BeaconStation file="%ModDir%/BeaconSeparatist_01_bandit.sub" />
@@ -22,7 +22,7 @@
   <Submarine file="%ModDir%/Mark-PilotWhale.sub" />
   <Submarine file="%ModDir%/Mark-Puffer.sub" />
   <Submarine file="%ModDir%/Mark-Barsuk.sub" />
-  <Submarine file="%ModDir%/Probe 1.sub" />
   <Submarine file="%ModDir%/Probe 2.sub" />
   <Submarine file="%ModDir%/Probe 3.sub" />
+  <Submarine file="%ModDir%/Probe 1.sub" />
 </contentpackage>

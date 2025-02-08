@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="test" modversion="1.0.36" corepackage="False" gameversion="1.7.7.0">
+<contentpackage name="test" modversion="1.0.37" corepackage="False" gameversion="1.7.7.0">
   <ItemAssembly file="%ModDir%/Camera switching system.xml" />
   <ItemAssembly file="%ModDir%/Decorate_BackGround.xml" />
   <ItemAssembly file="%ModDir%/Decorate_BasicLogic.xml" />
