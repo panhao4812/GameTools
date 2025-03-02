@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="test" modversion="1.0.38" corepackage="False" gameversion="1.7.7.0">
+<contentpackage name="test" modversion="1.0.41" corepackage="False" gameversion="1.7.7.0">
   <ItemAssembly file="%ModDir%/Camera switching system.xml" />
   <ItemAssembly file="%ModDir%/Decorate_BackGround.xml" />
   <ItemAssembly file="%ModDir%/Decorate_BasicLogic.xml" />
@@ -12,4 +12,12 @@
   <ItemAssembly file="%ModDir%/doorshatch2.xml" />
   <Submarine file="%ModDir%/T-Rail.sub" />
   <Submarine file="%ModDir%/T-FrontPage.sub" />
+  <Submarine file="%ModDir%/Mark-ATK-89.sub" />
+  <Submarine file="%ModDir%/Mark-Barsuk.sub" />
+  <Submarine file="%ModDir%/Mark-Sunfish-Sig1.sub" />
+  <Submarine file="%ModDir%/Mark-Swordfish-Sig1.sub" />
+  <Submarine file="%ModDir%/Mark-Swordfish-Sig2.sub" />
+  <Submarine file="%ModDir%/Mark-Swordfish-Sig3.sub" />
+  <Submarine file="%ModDir%/Mark-Puffer.sub" />
+  <Submarine file="%ModDir%/Mark-PilotWhale.sub" />
 </contentpackage>

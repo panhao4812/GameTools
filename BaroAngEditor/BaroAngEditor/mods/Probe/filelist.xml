@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Probe" modversion="1.0.165" corepackage="False" steamworkshopid="2943620711" gameversion="1.7.7.0">
+<contentpackage name="Probe" modversion="1.0.166" corepackage="False" steamworkshopid="2943620711" gameversion="1.7.7.0">
   <BeaconStation file="%ModDir%/BeaconCoalition_01.sub" />
-  <BeaconStation file="%ModDir%/BeaconFarm_01.sub" />
   <BeaconStation file="%ModDir%/BeaconSeparatist_01_bandit.sub" />
   <BeaconStation file="%ModDir%/BeaconSeparatist_01.sub" />
   <BeaconStation file="%ModDir%/BeaconCoalition_01_bandit.sub" />
@@ -9,20 +8,13 @@
   <BeaconStation file="%ModDir%/BeaconCoalition_02_bandit.sub" />
   <BeaconStation file="%ModDir%/BeaconCoalition_03.sub" />
   <BeaconStation file="%ModDir%/BeaconCoalition_03_bandit.sub" />
+  <BeaconStation file="%ModDir%/BeaconFarm_01.sub" />
   <BeaconStation file="%ModDir%/BeaconFarm_01_bandit.sub" />
   <BeaconStation file="%ModDir%/BeaconBarsuk_bandit.sub" />
   <BeaconStation file="%ModDir%/BeaconHotel_01_bandit.sub" />
   <BeaconStation file="%ModDir%/BeaconHotel_01.sub" />
   <BeaconStation file="%ModDir%/BeaconHotel_02_bandit.sub" />
-  <Submarine file="%ModDir%/Mark-Sunfish-Sig1.sub" />
-  <Submarine file="%ModDir%/Mark-Swordfish-Sig1.sub" />
-  <Submarine file="%ModDir%/Mark-Swordfish-Sig2.sub" />
-  <Submarine file="%ModDir%/Mark-Swordfish-Sig3.sub" />
   <Submarine file="%ModDir%/Probe 1.sub" />
-  <Submarine file="%ModDir%/Probe 3.sub" />
   <Submarine file="%ModDir%/Probe 2.sub" />
-  <Submarine file="%ModDir%/Mark-Puffer.sub" />
-  <Submarine file="%ModDir%/Mark-PilotWhale.sub" />
-  <Submarine file="%ModDir%/Mark-ATK-89.sub" />
-  <Submarine file="%ModDir%/Mark-Barsuk.sub" />
+  <Submarine file="%ModDir%/Probe 3.sub" />
 </contentpackage>
