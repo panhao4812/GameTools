@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ph\\Documents\\GitHub\\GameTools\\ZianLauncher\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\GameTools\\ZianLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{126AA93B-5CAD-4DB2-94AC-ACCB5352A59D}|ZianLauncher2\\ZianLauncher2.csproj|c:\\users\\ph\\documents\\github\\gametools\\zianlauncher\\zianlauncher2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{126AA93B-5CAD-4DB2-94AC-ACCB5352A59D}|ZianLauncher2\\ZianLauncher2.csproj|c:\\users\\administrator\\documents\\github\\gametools\\zianlauncher\\zianlauncher2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{126AA93B-5CAD-4DB2-94AC-ACCB5352A59D}|ZianLauncher2\\ZianLauncher2.csproj|solutionrelative:zianlauncher2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D434C3-CED2-46E5-913A-4F1819FC7FA7}|ZianLauncher\\ZianLauncher.csproj|c:\\users\\administrator\\documents\\github\\gametools\\zianlauncher\\zianlauncher\\launcherform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D434C3-CED2-46E5-913A-4F1819FC7FA7}|ZianLauncher\\ZianLauncher.csproj|solutionrelative:zianlauncher\\launcherform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{126AA93B-5CAD-4DB2-94AC-ACCB5352A59D}|ZianLauncher2\\ZianLauncher2.csproj|c:\\users\\administrator\\documents\\github\\gametools\\zianlauncher\\zianlauncher2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126AA93B-5CAD-4DB2-94AC-ACCB5352A59D}|ZianLauncher2\\ZianLauncher2.csproj|solutionrelative:zianlauncher2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,15 +22,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher\\LauncherForm\\Form1.cs",
+              "RelativeDocumentMoniker": "ZianLauncher\\LauncherForm\\Form1.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher\\LauncherForm\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "ZianLauncher\\LauncherForm\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:40:09.34Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher2\\Form1.cs",
+              "RelativeDocumentMoniker": "ZianLauncher2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher2\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "ZianLauncher2\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:39:51.24Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ph\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher2\\Program.cs",
               "RelativeDocumentMoniker": "ZianLauncher2\\Program.cs",
-              "ToolTip": "C:\\Users\\ph\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher2\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\GameTools\\ZianLauncher\\ZianLauncher2\\Program.cs",
               "RelativeToolTip": "ZianLauncher2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
